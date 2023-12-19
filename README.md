@@ -1,6 +1,6 @@
 # TrioWave
 ## Where Exploration Meets Insight
-![Alt text](public/trioWaveLogo.png =250x)
+![Alt text](public/trioWaveLogo.png)
 
 
 
