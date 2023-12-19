@@ -1,0 +1,58 @@
+/* src/components/WorldMap.css */
+
+/* Map container */
+.leaflet-container {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px; /* Add a border radius to the map container */
+    overflow: hidden; /* Hide overflowing content */
+  }
+  
+  /* Marker styles */
+  .marker-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e74c3c;
+    border: 2px solid #c0392b;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Popup styles */
+  .popup-container {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Popup content styles */
+  .popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .popup-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .popup-info {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .map-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: -1; /* Set z-index to 1 to ensure the map is behind the modal */
+  }
+  /* Add more styles as needed */
+  
