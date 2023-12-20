@@ -1,0 +1,56 @@
+{
+  "communities": [
+    {
+      "name": "Jewish Community",
+      "size": 500000,
+      "coordinates": { "latitude": 52.3676, "longitude": 4.9041 },
+      "attributes": [
+        { "name": "Israel Support", "value": 0.925 },
+        { "name": "Food Enthusiasts", "value": 0.5 },
+        { "name": "Religious Attendees", "value": 0.25 },
+        { "name": "Cultural Events", "value": 0.375 },
+        { "name": "Education Level", "value": 0.875 },
+        { "name": "Median Income", "value": 0.75 }
+      ]
+    },
+    {
+      "name": "Muslim Community",
+      "size": 1000000,
+      "coordinates": { "latitude": 52.0907, "longitude": 5.1214 },
+      "attributes": [
+        { "name": "Israel Opposition", "value": 0 },
+        { "name": "Food Enthusiasts", "value": 0.4 },
+        { "name": "Religious Attendees", "value": 0.8 },
+        { "name": "Cultural Diversity", "value": 0.1 },
+        { "name": "Education Level", "value": 0.4 },
+        { "name": "Median Income", "value": 0.35 }
+      ]
+    },
+    {
+      "name": "Evangelist Community",
+      "size": 200000,
+      "coordinates": { "latitude": 51.9225, "longitude": 4.4793 },
+      "attributes": [
+        { "name": "Israel Support", "value": 1.000 },
+        { "name": "Food Enthusiasts", "value": 0.4375 },
+        { "name": "Religious Attendees", "value": 0.6 },
+        { "name": "Cultural Events", "value": 0.4375 },
+        { "name": "Education Level", "value": 0.875 },
+        { "name": "Median Income", "value": 0.6875 }
+      ]
+    },
+    {
+      "name": "LGBTQ+ Community",
+      "size": 75000,
+      "coordinates": { "latitude": 52.0907, "longitude": 5.5214 },
+      "attributes": [
+        { "name": "Israel Support", "value": 0.525 },
+        { "name": "Food Enthusiasts", "value": 0.7333 },
+        { "name": "Religious Attendees", "value": 0.2667 },
+        { "name": "Cultural Events", "value": 0.8556 },
+        { "name": "Education Level", "value": 0.6667 },
+        { "name": "Median Income", "value": 0.9333 }
+      ]
+    }
+  ]
+}
