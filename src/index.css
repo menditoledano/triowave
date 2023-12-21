@@ -10,8 +10,7 @@ body {
 
 #root {
   height: 100vh; /* Set root container height to 100% of viewport height */
-  width: 90vw; /* Set root container width to 90% of viewport width */
-  margin: 0 auto; /* Center the container horizontally */
+  width: 100vw; /* Set root container width to 90% of viewport width */
 }
 
 /* ... Other styles remain unchanged ... */

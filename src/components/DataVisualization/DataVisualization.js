@@ -1,14 +1,11 @@
 // src/components/DataVisualization.js
-// src/components/DataVisualization.js
 import React, { useState, useRef, useEffect } from 'react';
 import ReactApexChart from 'react-apexcharts';
-import { FaArrowLeft } from 'react-icons/fa'; // Import the arrow left icon
 import './DataVisualization.css';
 
-const DataVisualization = ({ community, onClose }) => {
+const DataVisualization = ({ country, city, community, onClose }) => {
   const [activeAttribute, setActiveAttribute] = useState(null);
   const modalRef = useRef(null);
-  const interestsModalRef = useRef(null);
 
   const handleAttributeClick = (attribute) => {
     setActiveAttribute(attribute);
@@ -16,46 +13,33 @@ const DataVisualization = ({ community, onClose }) => {
 
   const handleCloseModal = () => {
     setActiveAttribute(null);
-    onClose();
+    onClose(); // Call the onClose prop to close the modal
   };
 
-  const handleCloseInterestsModal = () => {
-    setActiveAttribute(null);
-  };
-
+  // Close the modal if clicked outside of it
   const handleClickOutsideModal = (event, modalRef) => {
     if (modalRef.current && !modalRef.current.contains(event.target)) {
-      if (modalRef === interestsModalRef) {
-        handleCloseInterestsModal();
-      } else {
-        handleCloseModal();
-      }
+      handleCloseModal();
     }
   };
 
   useEffect(() => {
+    // Attach the event listener when the component mounts
     document.addEventListener('mousedown', (event) => handleClickOutsideModal(event, modalRef));
 
+    // Detach the event listener when the component unmounts
     return () => {
       document.removeEventListener('mousedown', (event) => handleClickOutsideModal(event, modalRef));
-    };
-  }, []);
-
-  useEffect(() => {
-    document.addEventListener('mousedown', (event) => handleClickOutsideModal(event, interestsModalRef));
-
-    return () => {
-      document.removeEventListener('mousedown', (event) => handleClickOutsideModal(event, interestsModalRef));
     };
   }, []);
 
   const chartData = {
     series: [
       {
-        data: community.attributes.map((attribute, index) => ({
-          x: attribute.name,
-          y: attribute.value * 100,
-          fillColor: getCircleColor(attribute.name),
+        data: Object.entries(community.attributes).map(([attributeName, value], index) => ({
+          x: attributeName,
+          y: value * 100, // Multiply by 100 to convert the ratio to percentage
+          fillColor: getCircleColor(attributeName),
           index,
         })),
       },
@@ -66,9 +50,9 @@ const DataVisualization = ({ community, onClose }) => {
     chart: {
       events: {
         click: function (event, chartContext, config) {
-          const clickedAttribute = community.attributes[config.dataPointIndex];
+          const clickedAttribute = Object.entries(community.attributes)[config.dataPointIndex];
           if (clickedAttribute) {
-            handleAttributeClick(clickedAttribute);
+            handleAttributeClick({ name: clickedAttribute[0], value: clickedAttribute[1] });
           }
         },
       },
@@ -94,28 +78,23 @@ const DataVisualization = ({ community, onClose }) => {
     },
   };
 
-  const chartStyle = {
-    width: '100%',
-    height: '80vh',
-  };
-
   return (
     <div className="data-visualization-container" ref={modalRef}>
       <div className="modal-content">
-        
-        <h2 className="data-visualization-header">{community.name}</h2>
+        <span className="close" onClick={handleCloseModal}>
+          &times;
+        </span>
+        <h3 className="data-visualization-header">{community.name}</h3>
         <h4 className="data-visualization-header">{community.size.toLocaleString()} Population</h4>
-        <button className="back-button" onClick={handleCloseModal}>
-          <FaArrowLeft />
-        </button>
-        <ReactApexChart options={chartOptions} series={chartData.series} type="treemap" style={chartStyle} />
+
+        <ReactApexChart options={chartOptions} series={chartData.series} type="treemap"/>
       </div>
       {activeAttribute && (
-        <div className="interests-modal" ref={interestsModalRef}>
+        <div className="interests-modal" ref={modalRef}>
           <div className="modal-content modal-card">
-            <button className="back-button" onClick={handleCloseInterestsModal}>
-              <FaArrowLeft />
-            </button>
+            <span className="close" onClick={handleCloseModal}>
+              &times;
+            </span>
             <h2>{activeAttribute.name}</h2>
             <div className="modal-card">
               <strong>Value:</strong> {activeAttribute.value}
@@ -127,17 +106,13 @@ const DataVisualization = ({ community, onClose }) => {
   );
 };
 
-// Function to get different colors based on attribute name
 const attributeColors = {
-  'Israel Support': '#536DFE',
+  'Israel Opposition': '#536DFE',
   'Food Enthusiasts': '#FF8A65',
   'Religious Attendees': '#9FA8DA',
-  'Cultural Events': '#FF4081',
+  'Cultural Diversity': '#009688',
   'Education Level': '#3F51B5',
   'Median Income': '#8BC34A',
-  'Population': '#FF5252',
-  'Cultural Diversity': '#009688',
-  'Outreach Programs': '#00E676',
   // Add more cases as needed
   default: '#B0BEC5', // Default color
 };

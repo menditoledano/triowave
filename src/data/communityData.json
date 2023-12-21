@@ -1,55 +1,127 @@
 {
-  "communities": [
+  "countries": [
     {
-      "name": "Jewish Community",
-      "size": 500000,
-      "coordinates": { "latitude": 52.3676, "longitude": 4.9041 },
-      "attributes": [
-        { "name": "Israel Support", "value": 0.925 },
-        { "name": "Food Enthusiasts", "value": 0.5 },
-        { "name": "Religious Attendees", "value": 0.25 },
-        { "name": "Cultural Events", "value": 0.375 },
-        { "name": "Education Level", "value": 0.875 },
-        { "name": "Median Income", "value": 0.75 }
+      "name": "Netherlands",
+      "cities": [
+        {
+          "name": "Amsterdam",
+          "communities": [
+            {
+              "name": "Greenfield Heights",
+              "size": 12000,
+              "coordinates": {"latitude": 52.3676, "longitude": 4.9041},
+              "attributes": {"Population Density": 0.3, "Education Level": 0.7, "Income Level": 0.5, "Cultural Diversity": 0.6, "Healthcare Access": 0.4, "Crime Rate": 0.2, "Job Opportunities": 0.8, "Transportation Infrastructure": 0.7, "Air Quality": 0.6, "Israel Opposition": 0.4, "Food Enthusiasts": 0.9, "Religious Attendees": 0.3, "Jewish Community": 0.8, "Muslim Community": 0.5, "Evangelist": 0.2, "LGBTQ": 0.1}
+            },
+            {
+              "name": "Riverside Gardens",
+              "size": 15000,
+              "coordinates": {"latitude": 52.3792, "longitude": 4.8994},
+              "attributes": {"Population Density": 0.5, "Education Level": 0.6, "Income Level": 0.7, "Cultural Diversity": 0.5, "Healthcare Access": 0.8, "Crime Rate": 0.3, "Job Opportunities": 0.7, "Transportation Infrastructure": 0.6, "Air Quality": 0.7, "Israel Opposition": 0.5, "Food Enthusiasts": 0.7, "Religious Attendees": 0.4, "Jewish Community": 0.6, "Evangelist": 0.3, "LGBTQ": 0.2}
+            },
+            {
+              "name": "Cultural Center",
+              "size": 8000,
+              "coordinates": {"latitude": 52.3702, "longitude": 4.8952},
+              "attributes": {"Population Density": 0.4, "Education Level": 0.6, "Income Level": 0.4, "Cultural Diversity": 0.8, "Healthcare Access": 0.5, "Crime Rate": 0.3, "Job Opportunities": 0.5, "Transportation Infrastructure": 0.6, "Air Quality": 0.7}
+            },
+            {
+              "name": "Jewish Community",
+              "size": 20000,
+              "coordinates": {"latitude": 52.3671, "longitude": 4.8999},
+              "attributes": {"Population Density": 0.4, "Education Level": 0.8, "Income Level": 0.6, "Cultural Diversity": 0.7, "Healthcare Access": 0.5, "Crime Rate": 0.3, "Job Opportunities": 0.7, "Transportation Infrastructure": 0.6, "Air Quality": 0.7, "Israel Opposition": 0.3, "Food Enthusiasts": 0.8, "Religious Attendees": 0.4, "Evangelist": 0.2, "LGBTQ": 0.1}
+            },
+            {
+              "name": "Evangelist",
+              "size": 10000,
+              "coordinates": {"latitude": 52.3690, "longitude": 4.9005},
+              "attributes": {"Population Density": 0.3, "Education Level": 0.6, "Income Level": 0.5, "Cultural Diversity": 0.4, "Healthcare Access": 0.6, "Crime Rate": 0.2, "Job Opportunities": 0.5, "Transportation Infrastructure": 0.7, "Air Quality": 0.6, "Israel Opposition": 0.3, "Food Enthusiasts": 0.5, "Religious Attendees": 0.4, "Jewish Community": 0.2, "LGBTQ": 0.1}
+            },
+            {
+              "name": "LGBTQ",
+              "size": 48000,
+              "coordinates": {"latitude": 52.3682, "longitude": 4.9021},
+              "attributes": {"Population Density": 0.2, "Education Level": 0.7, "Income Level": 0.4, "Cultural Diversity": 0.8, "Healthcare Access": 0.3, "Crime Rate": 0.1, "Job Opportunities": 0.6, "Transportation Infrastructure": 0.8, "Air Quality": 0.7, "Israel Opposition": 0.1, "Food Enthusiasts": 0.9, "Religious Attendees": 0.2, "Jewish Community": 0.1, "Evangelist": 0.1}
+            },
+            {
+              "name": "Canal Side Residences",
+              "size": 25000,
+              "coordinates": {"latitude": 52.3687, "longitude": 4.8993},
+              "attributes": {"Population Density": 0.6, "Education Level": 0.7, "Income Level": 0.8, "Cultural Diversity": 0.7, "Healthcare Access": 0.6, "Crime Rate": 0.4, "Job Opportunities": 0.8, "Transportation Infrastructure": 0.7, "Air Quality": 0.8, "Israel Opposition": 0.3, "Food Enthusiasts": 0.9, "Religious Attendees": 0.4, "Jewish Community": 0.7, "Evangelist": 0.5, "LGBTQ": 0.3}
+            },
+            {
+              "name": "Museum District",
+              "size": 18000,
+              "coordinates": {"latitude": 52.3585, "longitude": 4.8845},
+              "attributes": {"Population Density": 0.5, "Education Level": 0.8, "Income Level": 0.7, "Cultural Diversity": 0.8, "Healthcare Access": 0.6, "Crime Rate": 0.3, "Job Opportunities": 0.7, "Transportation Infrastructure": 0.7, "Air Quality": 0.8, "Israel Opposition": 0.2, "Food Enthusiasts": 0.8, "Religious Attendees": 0.4, "Jewish Community": 0.6, "Evangelist": 0.3, "LGBTQ": 0.2}
+            }
+          ]
+        }
       ]
     },
     {
-      "name": "Muslim Community",
-      "size": 1000000,
-      "coordinates": { "latitude": 52.0907, "longitude": 5.1214 },
-      "attributes": [
-        { "name": "Israel Opposition", "value": 0 },
-        { "name": "Food Enthusiasts", "value": 0.4 },
-        { "name": "Religious Attendees", "value": 0.8 },
-        { "name": "Cultural Diversity", "value": 0.1 },
-        { "name": "Education Level", "value": 0.4 },
-        { "name": "Median Income", "value": 0.35 }
+      "name": "Brazil",
+      "cities": [
+        {
+          "name": "Rio de Janeiro",
+          "communities": [
+            {
+              "name": "Copacabana Beachfront",
+              "size": 16000,
+              "coordinates": {"latitude": -22.9849, "longitude": -43.1950},
+              "attributes": {"Population Density": 0.6, "Education Level": 0.5, "Income Level": 0.7, "Cultural Diversity": 0.8, "Healthcare Access": 0.6, "Crime Rate": 0.3, "Job Opportunities": 0.8, "Transportation Infrastructure": 0.7, "Air Quality": 0.7}
+            },
+            {
+              "name": "Amazon Rainforest Village",
+              "size": 22000,
+              "coordinates": {"latitude": -3.4653, "longitude": -62.2159},
+              "attributes": {"Population Density": 0.2, "Education Level": 0.7, "Income Level": 0.4, "Cultural Diversity": 0.6, "Healthcare Access": 0.5, "Crime Rate": 0.2, "Job Opportunities": 0.5, "Transportation Infrastructure": 0.6, "Air Quality": 0.5}
+            }
+          ]
+        }
       ]
     },
     {
-      "name": "Evangelist Community",
-      "size": 200000,
-      "coordinates": { "latitude": 51.9225, "longitude": 4.4793 },
-      "attributes": [
-        { "name": "Israel Support", "value": 1.000 },
-        { "name": "Food Enthusiasts", "value": 0.4375 },
-        { "name": "Religious Attendees", "value": 0.6 },
-        { "name": "Cultural Events", "value": 0.4375 },
-        { "name": "Education Level", "value": 0.875 },
-        { "name": "Median Income", "value": 0.6875 }
+      "name": "Israel",
+      "cities": [
+        {
+          "name": "Tel Aviv",
+          "communities": [
+            {
+              "name": "Tech Hub Heights",
+              "size": 14000,
+              "coordinates": {"latitude": 32.0853, "longitude": 34.7818},
+              "attributes": {"Population Density": 0.5, "Education Level": 0.8, "Income Level": 0.7, "Cultural Diversity": 0.6, "Healthcare Access": 0.7, "Crime Rate": 0.3, "Job Opportunities": 0.8, "Transportation Infrastructure": 0.8, "Air Quality": 0.7}
+            },
+            {
+              "name": "Old Jaffa Quarters",
+              "size": 10000,
+              "coordinates": {"latitude": 32.0489, "longitude": 34.7515},
+              "attributes": {"Population Density": 0.4, "Education Level": 0.6, "Income Level": 0.5, "Cultural Diversity": 0.7, "Healthcare Access": 0.6, "Crime Rate": 0.2, "Job Opportunities": 0.5, "Transportation Infrastructure": 0.7, "Air Quality": 0.6}
+            }
+          ]
+        }
       ]
     },
     {
-      "name": "LGBTQ+ Community",
-      "size": 75000,
-      "coordinates": { "latitude": 52.0907, "longitude": 5.5214 },
-      "attributes": [
-        { "name": "Israel Support", "value": 0.525 },
-        { "name": "Food Enthusiasts", "value": 0.7333 },
-        { "name": "Religious Attendees", "value": 0.2667 },
-        { "name": "Cultural Events", "value": 0.8556 },
-        { "name": "Education Level", "value": 0.6667 },
-        { "name": "Median Income", "value": 0.9333 }
+      "name": "New York",
+      "cities": [
+        {
+          "name": "Manhattan",
+          "communities": [
+            {
+              "name": "Financial District Towers",
+              "size": 20000,
+              "coordinates": {"latitude": 40.7128, "longitude": -74.0060},
+              "attributes": {"Population Density": 0.8, "Education Level": 0.7, "Income Level": 0.9, "Cultural Diversity": 0.7, "Healthcare Access": 0.8, "Crime Rate": 0.4, "Job Opportunities": 0.9, "Transportation Infrastructure": 0.8, "Air Quality": 0.7}
+            },
+            {
+              "name": "Central Park Residences",
+              "size": 15000,
+              "coordinates": {"latitude": 40.7851, "longitude": -73.9683},
+              "attributes": {"Population Density": 0.6, "Education Level": 0.8, "Income Level": 0.7, "Cultural Diversity": 0.8, "Healthcare Access": 0.7, "Crime Rate": 0.3, "Job Opportunities": 0.7, "Transportation Infrastructure": 0.7, "Air Quality": 0.8}
+            }
+          ]
+        }
       ]
     }
   ]
