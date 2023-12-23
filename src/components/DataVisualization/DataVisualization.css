@@ -1,7 +1,5 @@
 /* src/components/DataVisualization.css */
 
-/* src/components/DataVisualization.css */
-
 .data-visualization-container {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   position: fixed;
@@ -21,7 +19,7 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-  width:63vw;
+  width: 63vw;
   position: relative;
 }
 
@@ -35,12 +33,12 @@
 }
 
 .close:hover {
-  color: #37474f; /* Set text color to Blue Gray 800 on hover */
+  color: #37474f;
 }
 
 .data-visualization-header {
   margin-bottom: 20px;
-  color: #263238; /* Set text color to Blue Gray 900 */
+  color: #263238;
   text-align: center;
 }
 
@@ -62,10 +60,94 @@
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   background-color: #f5f5f5;
-  color: #263238; /* Set text color to Blue Gray 900 */
+  color: #263238;
 }
 
 .modal-card h2 {
-  color: #263238; /* Set text color to Blue Gray 900 */
+  color: #263238;
 }
 
+/* Add more styles as needed for the Data Sources tab */
+/* src/components/DataVisualization.css */
+
+/* ... (previous styles) ... */
+
+.tab-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.tab {
+  flex: 1;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  color: #263238;
+  border: none;
+  border-radius: 5px 5px 0 0;
+  transition: background-color 0.3s ease;
+}
+
+.tab:hover {
+  background-color: #ddd;
+}
+
+.tab.active {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: none;
+}
+
+.tab-content {
+  margin-top: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Data Sources tab styles */
+.data-sources-tab {
+  display: none;
+}
+
+.tab.active .data-sources-tab {
+  display: block;
+}
+
+.data-sources-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.data-source-item {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  transition: background-color 0.3s ease;
+}
+
+.data-source-item:last-child {
+  border-bottom: none;
+}
+
+.data-source-item:hover {
+  background-color: #f0f0f0;
+}
+
+.data-source-name {
+  font-weight: bold;
+}
+
+.data-source-link {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.data-source-link:hover {
+  color: #2980b9;
+}

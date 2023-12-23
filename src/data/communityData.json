@@ -12,7 +12,11 @@
               "name": "Greenfield Heights",
               "size": 12000,
               "coordinates": {"latitude": 52.3676, "longitude": 4.9041},
-              "attributes": {"Population Density": 0.3, "Education Level": 0.7, "Income Level": 0.5, "Cultural Diversity": 0.6, "Healthcare Access": 0.4, "Crime Rate": 0.2, "Job Opportunities": 0.8, "Transportation Infrastructure": 0.7, "Air Quality": 0.6, "Israel Opposition": 0.4, "Food Enthusiasts": 0.9, "Religious Attendees": 0.3, "Jewish Community": 0.8, "Muslim Community": 0.5, "Evangelist": 0.2, "LGBTQ": 0.1}
+              "attributes": {"Population Density": 0.3, "Education Level": 0.7, "Income Level": 0.5, "Cultural Diversity": 0.6, "Healthcare Access": 0.4, "Crime Rate": 0.2, "Job Opportunities": 0.8, "Transportation Infrastructure": 0.7, "Air Quality": 0.6, "Israel Opposition": 0.4, "Food Enthusiasts": 0.9, "Religious Attendees": 0.3, "Jewish Community": 0.8, "Muslim Community": 0.5, "Evangelist": 0.2, "LGBTQ": 0.1},
+              "dataSources": [
+                {"name": "Facebook Group", "url": "https://www.facebook.com/groups/7965268533/"},
+                {"name": "Telegram Channel", "url": "https://t.me/greenfieldheights"}
+              ]
             },
             {
               "name": "Riverside Gardens",
@@ -68,16 +72,75 @@
           "coordinates": {"latitude": -23.5505, "longitude": -46.6333},
           "communities": [
             {
+              "name": "Evangelist",
+              "size": 25000,
+              "coordinates": {"latitude": -23.5509, "longitude": -46.6339},
+              "attributes": {"Population Density": 0.5, "Education Level": 0.7, "Income Level": 0.8, "Cultural Diversity": 0.8, "Healthcare Access": 0.7, "Crime Rate": 0.3, "Job Opportunities": 0.8, "Transportation Infrastructure": 0.7, "Air Quality": 0.8},
+              "dataSources": [
+                {"name": "Facebook Group", "url": "https://www.facebook.com/impdoficial/?locale=pt_BR"},
+                {"name": "Facebook Group", "url": "https://www.facebook.com/igreja.adbras/?locale=pt_BR"},
+              ]
+            },
+            {
               "name": "Downtown Hub",
               "size": 1000,
               "coordinates": {"latitude": -23.5555, "longitude": -46.6493},
               "attributes": {"Population Density": 0.7, "Education Level": 0.8, "Income Level": 0.6, "Cultural Diversity": 0.9, "Healthcare Access": 0.7, "Crime Rate": 0.4, "Job Opportunities": 0.9, "Transportation Infrastructure": 0.8, "Air Quality": 0.7}
             },
             {
-              "name": "Green Suburbs",
-              "size": 25000,
-              "coordinates": {"latitude": -23.5509, "longitude": -46.6339},
-              "attributes": {"Population Density": 0.5, "Education Level": 0.7, "Income Level": 0.8, "Cultural Diversity": 0.8, "Healthcare Access": 0.7, "Crime Rate": 0.3, "Job Opportunities": 0.8, "Transportation Infrastructure": 0.7, "Air Quality": 0.8}
+              "name": "Jewish",
+              "size": 140000,
+              "coordinates": {"latitude": -23.5617, "longitude": -46.6600},
+              "attributes": {"Population Density": 0.9, "Education Level": 0.9, "Income Level": 0.8, "Cultural Diversity": 0.9, "Healthcare Access": 0.9, "Crime Rate": 0.4, "Job Opportunities": 0.8, "Transportation Infrastructure": 0.9, "Air Quality": 0.8},
+              "dataSources": [
+                {"name": "Facebook", "url": "https://www.facebook.com/ClubeHebraicaSP"},
+                {"name": "Facebook", "url": "https://www.facebook.com/ProgramaShalomBrasil"},
+                {"name": "Facebook", "url": "https://www.facebook.com/ItzchakElchonon/"},
+                {"name": "Facebook", "url": "https://www.facebook.com/IsraelinSaoPaulo"},
+                {"name": "Facebook", "url": "https://www.facebook.com/chevrasaopaulo"},
+                {"name": "Facebook", "url": "https://www.facebook.com/federacaosp"},
+                {"name": "Facebook", "url": "https://www.facebook.com/VelasKosher/"},
+                {"name": "Instagram", "url": "https://www.instagram.com/memorialdoholocausto/?hl=en"},
+                {"name": "Facebook", "url": "https://www.facebook.com/editoraelivrariasefer/"},
+                {"name": "Facebook", "url": "https://www.facebook.com/HOREBEVIRTUAL/"},
+                {"name": "Instagram", "url": "https://www.instagram.com/shoshana_delishop/?hl=en"},
+                {"name": "Instagram", "url": "https://www.instagram.com/bazartenyad/?hl=en"},
+                {"name": "Facebook", "url": "https://www.facebook.com/emporiumbrasilisrael/"},
+                {"name": "Facebook", "url": "https://www.facebook.com/ResgateJudaica/"},
+                {"name": "Facebook", "url": "https://www.facebook.com/edmaayanot/"},
+                {"name": "Facebook", "url": "https://www.facebook.com/escolasganilubavitch/"},
+                {"name": "Facebook", "url": "https://www.facebook.com/shildavila/?locale=pt_BR"},
+                {"name": "Facebook", "url": "https://www.facebook.com/cipsp/?locale=pt_BR"},
+                {"name": "Facebook", "url": "https://www.facebook.com/groups/467395750078077/?paipv=0&eav=AfYRDck032k9BKr2npQ579MBH2SVQUdU-Hf-cZ6nn44bG0nnMb6moW6l0E1rnm70dDE&_rdr"},
+                {"name": "Facebook", "url": "https://www.facebook.com/sinagogasemfronteiras/?locale=pt_BR"},
+                {"name": "Facebook", "url": "https://www.facebook.com/tiferetlubavitch/"},
+                {"name": "Instagram", "url": "https://www.instagram.com/sinagogasemsaopaulo/?hl=en"},
+                {"name": "Instagram", "url": "https://www.instagram.com/kehilat_mizrachi/"}
+             ]
+            },
+            {
+              "name": "LGBTQ",
+              "size": 6700,
+              "coordinates": {"latitude": -23.5600, "longitude": -46.6200},
+              "attributes": {"Population Density": 0.8, "Education Level": 0.9, "Income Level": 0.7, "Cultural Diversity": 0.9, "Healthcare Access": 0.8, "Crime Rate": 0.5, "Job Opportunities": 0.8, "Transportation Infrastructure": 0.9, "Air Quality": 0.8},
+              "dataSources": [
+                {"name": "Instagram", "url": "https://www.instagram.com/memorialdoholocausto/?hl=en"},
+                {"name": "Facebook", "url": "https://www.facebook.com/editoraelivrariasefer/"},
+                {"name": "Facebook", "url": "https://www.facebook.com/HOREBEVIRTUAL/"},
+                {"name": "Instagram", "url": "https://www.instagram.com/shoshana_delishop/?hl=en"},
+                {"name": "Instagram", "url": "https://www.instagram.com/bazartenyad/?hl=en"},
+                {"name": "Facebook", "url": "https://www.facebook.com/emporiumbrasilisrael/"},
+                {"name": "Facebook", "url": "https://www.facebook.com/ResgateJudaica/"},
+                {"name": "Facebook", "url": "https://www.facebook.com/edmaayanot/"},
+                {"name": "Facebook", "url": "https://www.facebook.com/escolasganilubavitch/"},
+                {"name": "Facebook", "url": "https://www.facebook.com/shildavila/?locale=pt_BR"},
+                {"name": "Facebook", "url": "https://www.facebook.com/cipsp/?locale=pt_BR"},
+                {"name": "Facebook", "url": "https://www.facebook.com/groups/467395750078077/?paipv=0&eav=AfYRDck032k9BKr2npQ579MBH2SVQUdU-Hf-cZ6nn44bG0nnMb6moW6l0E1rnm70dDE&_rdr"},
+                {"name": "Facebook", "url": "https://www.facebook.com/sinagogasemfronteiras/?locale=pt_BR"},
+                {"name": "Facebook", "url": "https://www.facebook.com/tiferetlubavitch/"},
+                {"name": "Instagram", "url": "https://www.instagram.com/sinagogasemsaopaulo/?hl=en"},
+                {"name": "Instagram", "url": "https://www.instagram.com/kehilat_mizrachi/"}
+              ]
             }
           ]
         },

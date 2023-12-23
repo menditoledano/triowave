@@ -1,9 +1,10 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import ReactApexChart from 'react-apexcharts';
 import './DataVisualization.css';
 
 const DataVisualization = ({ community, onClose }) => {
   const modalRef = useRef(null);
+  const [activeTab, setActiveTab] = useState('chart');
 
   const handleCloseModal = () => {
     onClose();
@@ -23,36 +24,67 @@ const DataVisualization = ({ community, onClose }) => {
     };
   }, []);
 
-  const attributeColors = generateAttributeColors(community.attributes);
-
-  const chartData = {
-    series: [
-      {
-        data: Object.entries(community.attributes).map(([attributeName, value], index) => ({
-          x: attributeName,
-          y: value * 100,
-          fillColor: attributeColors[attributeName] || attributeColors.default,
-          index,
-        })),
-      },
-    ],
+  const handleTabChange = (tab) => {
+    setActiveTab(tab);
   };
 
-  const chartOptions = {
-    chart: {
-      events: {
-        click: (event, chartContext, config) => {
-          const clickedAttribute = Object.entries(community.attributes)[config.dataPointIndex];
-          if (clickedAttribute) {
-            console.log({ name: clickedAttribute[0], value: clickedAttribute[1] });
-            // handleAttributeClick({ name: clickedAttribute[0], value: clickedAttribute[1] });
-          }
+  const renderChartTab = () => {
+    const attributeColors = generateAttributeColors(community.attributes);
+
+    const chartData = {
+      series: [
+        {
+          data: Object.entries(community.attributes).map(([attributeName, value], index) => ({
+            x: attributeName,
+            y: value * 100,
+            fillColor: attributeColors[attributeName] || attributeColors.default,
+            index,
+          })),
+        },
+      ],
+    };
+
+    const chartOptions = {
+      chart: {
+        events: {
+          click: (event, chartContext, config) => {
+            const clickedAttribute = Object.entries(community.attributes)[config.dataPointIndex];
+            if (clickedAttribute) {
+              console.log({ name: clickedAttribute[0], value: clickedAttribute[1] });
+              // handleAttributeClick({ name: clickedAttribute[0], value: clickedAttribute[1] });
+            }
+          },
         },
       },
-    },
-    legend: { show: false },
-    tooltip: { x: { show: false }, y: { title: { formatter: () => '' } } },
-    plotOptions: { treemap: { distributed: true, enableShades: false } },
+      legend: { show: false },
+      tooltip: { x: { show: false }, y: { title: { formatter: () => '' } } },
+      plotOptions: { treemap: { distributed: true, enableShades: false } },
+    };
+
+    return (
+      <div>
+        <ReactApexChart options={chartOptions} series={chartData.series} type="treemap" />
+      </div>
+    );
+  };
+
+  const renderDataSourceTab = () => {
+    // Assuming community.dataSources is an array of data sources for the community
+    const dataSources = community.dataSources || [];
+
+    return (
+      <div>
+        <ul>
+          {dataSources.map((source, index) => (
+            <li key={index}>
+              <a href={source.url} target="_blank" rel="noopener noreferrer">
+                {source.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    );
   };
 
   return (
@@ -62,7 +94,18 @@ const DataVisualization = ({ community, onClose }) => {
         <h3 className="data-visualization-header">{community.name}</h3>
         <h4 className="data-visualization-header">{community.size.toLocaleString()} Population</h4>
 
-        <ReactApexChart options={chartOptions} series={chartData.series} type="treemap"/>
+        <div className="tab-container">
+          <div className={`tab ${activeTab === 'chart' ? 'active' : ''}`} onClick={() => handleTabChange('chart')}>
+            Chart
+          </div>
+          <div className={`tab ${activeTab === 'dataSource' ? 'active' : ''}`} onClick={() => handleTabChange('dataSource')}>
+            Data Sources
+          </div>
+        </div>
+
+        <div className="tab-content">
+          {activeTab === 'chart' ? renderChartTab() : renderDataSourceTab()}
+        </div>
       </div>
     </div>
   );

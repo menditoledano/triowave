@@ -89,7 +89,6 @@ const WorldMap = ({ countriesData, selectedCountry, selectedCity, selectedAttrib
             radius={Math.sqrt(community.size) * 0.30}
             eventHandlers={{ click: () => handleMarkerClick(community) }}
           >
-            <Popup>{community.name}</Popup>
             <Tooltip>{community.name}</Tooltip>
           </CircleMarker>
         ))}
