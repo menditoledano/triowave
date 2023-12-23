@@ -66,7 +66,7 @@ const Dashboard = () => {
 
   const handleCountryChange = (selectedOption) => {
     setSelectedCountry(selectedOption);
-    setSelectedCity(null);
+    setSelectedCity({label:selectedOption.value.cities[0].name, value:selectedOption.value.cities[0]});
   };
 
   const handleCityChange = (selectedOption) => {

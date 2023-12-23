@@ -9,25 +9,28 @@ const DataVisualization = ({ community, onClose }) => {
   const handleAttributeClick = (attribute) => {
     setActiveAttribute(attribute);
   };
-
   const handleCloseModal = () => {
     setActiveAttribute(null);
     onClose();
   };
 
-  const handleClickOutsideModal = (event) => {
-    if (modalRef.current && !modalRef.current.contains(event.target)) {
-      handleCloseModal();
-    }
-  };
-
   useEffect(() => {
+
+
+
+    const handleClickOutsideModal = (event) => {
+      if (modalRef.current && !modalRef.current.contains(event.target)) {
+        handleCloseModal();
+      }
+    };
+
     document.addEventListener('mousedown', handleClickOutsideModal);
 
     return () => {
       document.removeEventListener('mousedown', handleClickOutsideModal);
     };
-  }, []);
+  }, [modalRef]);
+
 
   const attributeColors = generateAttributeColors(community.attributes);
 

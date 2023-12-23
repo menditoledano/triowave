@@ -83,7 +83,7 @@
         },
         {
           "name": "Rio de Janeiro",
-          "coordinates": {"latitude": -22.9859, "longitude": -43.1950},
+          "coordinates": {"latitude": -22.9099, "longitude": -43.2260},
 
           "communities": [
             {
@@ -131,7 +131,7 @@
       "cities": [
         {
           "name": "Manhattan",
-          "coordinates": {"latitude": 41.7851, "longitude": -73.9683},
+          "coordinates": {"latitude": 40.7128, "longitude": -74.0160},
           "communities": [
             {
               "name": "Financial District Towers",
@@ -141,7 +141,7 @@
             },
             {
               "name": "Central Park Residences",
-              "size": 15000,
+              "size": 10000,
               "coordinates": {"latitude": 40.7851, "longitude": -73.9683},
               "attributes": {"Population Density": 0.6, "Education Level": 0.8, "Income Level": 0.7, "Cultural Diversity": 0.8, "Healthcare Access": 0.7, "Crime Rate": 0.3, "Job Opportunities": 0.7, "Transportation Infrastructure": 0.7, "Air Quality": 0.8}
             }
