@@ -5,6 +5,8 @@
       "cities": [
         {
           "name": "Amsterdam",
+          "coordinates": {"latitude": 52.3676, "longitude": 4.9041},
+
           "communities": [
             {
               "name": "Greenfield Heights",
@@ -62,7 +64,27 @@
       "name": "Brazil",
       "cities": [
         {
+          "name": "São Paulo",
+          "coordinates": {"latitude": -23.5505, "longitude": -46.6333},
+          "communities": [
+            {
+              "name": "Downtown Hub",
+              "size": 1000,
+              "coordinates": {"latitude": -23.5555, "longitude": -46.6493},
+              "attributes": {"Population Density": 0.7, "Education Level": 0.8, "Income Level": 0.6, "Cultural Diversity": 0.9, "Healthcare Access": 0.7, "Crime Rate": 0.4, "Job Opportunities": 0.9, "Transportation Infrastructure": 0.8, "Air Quality": 0.7}
+            },
+            {
+              "name": "Green Suburbs",
+              "size": 25000,
+              "coordinates": {"latitude": -23.5509, "longitude": -46.6339},
+              "attributes": {"Population Density": 0.5, "Education Level": 0.7, "Income Level": 0.8, "Cultural Diversity": 0.8, "Healthcare Access": 0.7, "Crime Rate": 0.3, "Job Opportunities": 0.8, "Transportation Infrastructure": 0.7, "Air Quality": 0.8}
+            }
+          ]
+        },
+        {
           "name": "Rio de Janeiro",
+          "coordinates": {"latitude": -22.9859, "longitude": -43.1950},
+
           "communities": [
             {
               "name": "Copacabana Beachfront",
@@ -78,6 +100,7 @@
             }
           ]
         }
+       
       ]
     },
     {
@@ -85,6 +108,7 @@
       "cities": [
         {
           "name": "Tel Aviv",
+          "coordinates": {"latitude": 32.0853, "longitude": 34.7818},
           "communities": [
             {
               "name": "Tech Hub Heights",
@@ -107,6 +131,7 @@
       "cities": [
         {
           "name": "Manhattan",
+          "coordinates": {"latitude": 41.7851, "longitude": -73.9683},
           "communities": [
             {
               "name": "Financial District Towers",

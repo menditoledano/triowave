@@ -11,6 +11,8 @@ const Dashboard = () => {
   const [selectedCity, setSelectedCity] = useState(null);
   const [selectedAttribute, setSelectedAttribute] = useState(null);
   const [selectedFilters, setSelectedFilters] = useState([]);
+  const [filterAttributeName, setFilterAttributeName] = useState('');
+  const [filterAttributeValue, setFilterAttributeValue] = useState('');
 
   useEffect(() => {
     const fetchData = async () => {
@@ -25,8 +27,6 @@ const Dashboard = () => {
 
     fetchData();
   }, []);
-
-
 
   const getFilterOptions = () => {
     if (selectedCountry && selectedCity && selectedCity.value) {
@@ -48,11 +48,9 @@ const Dashboard = () => {
 
   const filterOptions = getFilterOptions();
 
-    // Add an option to choose the value of the attribute
-    if (selectedAttribute) {
-      filterOptions.push({ value: 'custom', label: `Custom Value for ${selectedAttribute}` });
-    }
-  
+  if (selectedAttribute) {
+    filterOptions.push({ value: 'custom', label: `Custom Value for ${selectedAttribute}` });
+  }
 
   const countryOptions = countriesData.map((country) => ({
     value: country,
@@ -75,7 +73,6 @@ const Dashboard = () => {
     setSelectedCity(selectedOption);
   };
 
-
   const handleAttributeChange = (selectedOption) => {
     setSelectedAttribute(selectedOption ? selectedOption.value : null);
   };
@@ -84,61 +81,91 @@ const Dashboard = () => {
     setSelectedFilters(selectedOptions);
   };
 
- // Custom styles for react-select options
- const customStyles = {
-  option: (provided, state) => ({
-    ...provided,
-    backgroundColor: state.isSelected ? '#1A237E' : 'white', // Change the background color of selected options
-    color: state.isSelected ? 'white' : 'black', // Change the text color of selected options
-  }),
-};
+  const handleFilterAttributeNameChange = (selectedOption) => {
+    setFilterAttributeName(selectedOption ? selectedOption.value : '');
+  };
 
-return (
-  <div className="dashboard-container">
-    <header>
-    <div className="header-left">
-      <img src="/trioWaveLogo.png" alt="Your Logo" className="app-logo" />
-      <h1>TrioWave</h1>
-      <p className="slogan">Where Exploration Meets Insight</p>
-    </div>
-    <div className="header-right">
-      <Select
-        options={countryOptions}
-        value={selectedCountry}
-        onChange={handleCountryChange}
-        placeholder="Select country..."
-        className="filter-dropdown"
-        styles={customStyles}
-      />
-      {selectedCountry && (
-        <>
+  const handleFilterAttributeValueChange = (event) => {
+    setFilterAttributeValue(event.target.value);
+  };
+
+  const handleApplyCustomFilter = () => {
+    if (filterAttributeName && filterAttributeValue !== '') {
+      const parsedAttributeValue = parseFloat(filterAttributeValue);
+
+      if (!isNaN(parsedAttributeValue)) {
+        const customFilter = {
+          value: 'custom',
+          label: `Custom Filter: ${filterAttributeName} > ${parsedAttributeValue}`,
+          customValue: parsedAttributeValue,
+        };
+
+        setSelectedFilters([...selectedFilters.filter((option) => option.value !== 'custom'), customFilter]);
+      } else {
+        alert('Please enter a valid numeric attribute value.');
+      }
+    } else {
+      alert('Please select both attribute name and enter a valid attribute value.');
+    }
+  };
+
+  const customStyles = {
+    option: (provided, state) => ({
+      ...provided,
+      backgroundColor: state.isSelected ? '#1A237E' : 'white',
+      color: state.isSelected ? 'white' : 'black',
+    }),
+  };
+
+  return (
+    <div className="dashboard-container">
+      <header>
+        <div className="header-left">
+          <img src="/trioWaveLogo.png" alt="Your Logo" className="app-logo" />
+          <h1>TrioWave</h1>
+          <p className="slogan">Where Exploration Meets Insight</p>
+        </div>
+        <div className="header-right">
           <Select
-            options={cityOptions}
-            value={selectedCity}
-            onChange={handleCityChange}
-            placeholder="Select city..."
+            options={countryOptions}
+            value={selectedCountry}
+            onChange={handleCountryChange}
+            placeholder="Select country..."
             className="filter-dropdown"
-            isDisabled={!selectedCountry}
             styles={customStyles}
           />
-        </>
-      )}
-      <Select
-        options={filterOptions}
-        isMulti
-        value={selectedFilters}
-        onChange={handleFilterChange}
-        placeholder="Select filters..."
-        className="filter-dropdown"
-        styles={customStyles}
-      />
-      </div>
-    </header>
-    <main>
-      <WorldMap countriesData={countriesData} selectedCountry={selectedCountry} selectedCity={selectedCity} />
-    </main>
-  </div>
-);
+          {selectedCountry && (
+            <>
+              <Select
+                options={cityOptions}
+                value={selectedCity}
+                onChange={handleCityChange}
+                placeholder="Select city..."
+                className="filter-dropdown"
+                isDisabled={!selectedCountry}
+                styles={customStyles}
+              />
+            </>
+          )}
+          <div className="custom-filter-container">
+           
+          </div>
+          
+        </div>
+      </header>
+      <main>
+        <WorldMap
+          countriesData={countriesData}
+          selectedCountry={selectedCountry}
+          selectedCity={selectedCity}
+          selectedAttribute={selectedAttribute}
+          selectedFilters={selectedFilters}
+          filterAttributeName={filterAttributeName}
+          filterAttributeValue={filterAttributeValue}
+        />
+      </main>
+    </div>
+  );
 };
 
 export default Dashboard;
