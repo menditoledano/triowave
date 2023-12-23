@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { MapContainer ,Marker, TileLayer, CircleMarker, Popup, Tooltip, useMap } from 'react-leaflet';
+import { MapContainer, Marker, TileLayer, CircleMarker, Popup, Tooltip, useMap } from 'react-leaflet';
 import DataVisualization from '../DataVisualization/DataVisualization';
 import L from 'leaflet'; // Import Leaflet library
 
@@ -26,7 +26,7 @@ const WorldMap = ({ countriesData, selectedCountry, selectedCity, selectedAttrib
 
   const MapUpdater = () => {
     const map = useMap();
-  
+
     useEffect(() => {
       if (selectedCity) {
         const firstCommunity = selectedCity.value.communities[0];
@@ -42,33 +42,33 @@ const WorldMap = ({ countriesData, selectedCountry, selectedCity, selectedAttrib
       else if (selectedCountry) {
         const firstCity = selectedCountry.value.cities[0];
         const firstCommunity = firstCity ? firstCity.communities[0] : null;
-  
+
         if (firstCommunity) {
           map.flyTo(
             [firstCommunity.coordinates.latitude, firstCommunity.coordinates.longitude],
             zoomLevel
           );
         }
-      } 
+      }
     }, [selectedCountry, selectedCity, zoomLevel, map]);
-  
+
     return null;
   };
-  
+
 
   const filteredCommunities = selectedCountry
-  ? (selectedCity
+    ? (selectedCity
       ? selectedCity.value.communities
       : selectedCountry.value.cities.flatMap((city) => city.communities)
     ).filter((community) =>
       applyFilters(community.attributes, selectedAttribute, selectedFilters)
     )
-  : countriesData.flatMap((country) =>
+    : countriesData.flatMap((country) =>
       country.cities.flatMap((city) => city.communities)
     ).filter((community) =>
       applyFilters(community.attributes, selectedAttribute, selectedFilters)
     );
- 
+
 
   return (
     <div className="world-map-container">
@@ -93,31 +93,27 @@ const WorldMap = ({ countriesData, selectedCountry, selectedCity, selectedAttrib
             <Tooltip>{community.name}</Tooltip>
           </CircleMarker>
         ))}
-       
+
         {
-        countriesData.flatMap((country)=> country.cities.flatMap((city)=>  
-         
-           <Marker
-            position={[city.coordinates.latitude, city.coordinates.longitude]} 
-            icon={infoIcon}  
-            >
-                           
+        countriesData.flatMap((country)=> country.cities.flatMap((city)=>
 
-           <Popup>{city.name}
-           <div className="modal">
-           <embed
-              src={'./Amsterdam.pdf'}
-              type="application/pdf"
-              height={800}
-              width={500}
-            />
-          </div>
-           </Popup>
-          <Tooltip>{'City Info'}</Tooltip>
-         </Marker>
-
-          ))
-        }
+          <Marker
+                        position={[city.coordinates.latitude, city.coordinates.longitude]}
+            icon={infoIcon}
+                      >
+            <Popup>{city.name}
+              <div className="modal">
+                                <embed
+                  src={'./Amsterdam.pdf'}
+                  type="application/pdf"
+                  height={800}
+                  width={500}
+                />
+              </div>
+            </Popup>
+            <Tooltip>{'City Info'}</Tooltip>
+          </Marker>
+        ))}
         <MapUpdater />
       </MapContainer>
       {selectedCommunity && <DataVisualization community={selectedCommunity} onClose={handleCloseModal} />}

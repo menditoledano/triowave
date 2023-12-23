@@ -66,47 +66,11 @@ const Dashboard = () => {
 
   const handleCountryChange = (selectedOption) => {
     setSelectedCountry(selectedOption);
-    setSelectedCity({label:selectedOption.value.cities[0].name, value:selectedOption.value.cities[0]});
+    setSelectedCity({ label: selectedOption.value.cities[0].name, value: selectedOption.value.cities[0] });
   };
 
   const handleCityChange = (selectedOption) => {
     setSelectedCity(selectedOption);
-  };
-
-  const handleAttributeChange = (selectedOption) => {
-    setSelectedAttribute(selectedOption ? selectedOption.value : null);
-  };
-
-  const handleFilterChange = (selectedOptions) => {
-    setSelectedFilters(selectedOptions);
-  };
-
-  const handleFilterAttributeNameChange = (selectedOption) => {
-    setFilterAttributeName(selectedOption ? selectedOption.value : '');
-  };
-
-  const handleFilterAttributeValueChange = (event) => {
-    setFilterAttributeValue(event.target.value);
-  };
-
-  const handleApplyCustomFilter = () => {
-    if (filterAttributeName && filterAttributeValue !== '') {
-      const parsedAttributeValue = parseFloat(filterAttributeValue);
-
-      if (!isNaN(parsedAttributeValue)) {
-        const customFilter = {
-          value: 'custom',
-          label: `Custom Filter: ${filterAttributeName} > ${parsedAttributeValue}`,
-          customValue: parsedAttributeValue,
-        };
-
-        setSelectedFilters([...selectedFilters.filter((option) => option.value !== 'custom'), customFilter]);
-      } else {
-        alert('Please enter a valid numeric attribute value.');
-      }
-    } else {
-      alert('Please select both attribute name and enter a valid attribute value.');
-    }
   };
 
   const customStyles = {
@@ -147,10 +111,6 @@ const Dashboard = () => {
               />
             </>
           )}
-          <div className="custom-filter-container">
-           
-          </div>
-          
         </div>
       </header>
       <main>

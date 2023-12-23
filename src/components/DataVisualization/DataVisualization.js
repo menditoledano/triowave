@@ -1,23 +1,15 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useRef, useEffect } from 'react';
 import ReactApexChart from 'react-apexcharts';
 import './DataVisualization.css';
 
 const DataVisualization = ({ community, onClose }) => {
-  const [activeAttribute, setActiveAttribute] = useState(null);
   const modalRef = useRef(null);
 
-  const handleAttributeClick = (attribute) => {
-    setActiveAttribute(attribute);
-  };
   const handleCloseModal = () => {
-    setActiveAttribute(null);
     onClose();
   };
 
   useEffect(() => {
-
-
-
     const handleClickOutsideModal = (event) => {
       if (modalRef.current && !modalRef.current.contains(event.target)) {
         handleCloseModal();
@@ -29,8 +21,7 @@ const DataVisualization = ({ community, onClose }) => {
     return () => {
       document.removeEventListener('mousedown', handleClickOutsideModal);
     };
-  }, [modalRef]);
-
+  }, []);
 
   const attributeColors = generateAttributeColors(community.attributes);
 
@@ -53,7 +44,8 @@ const DataVisualization = ({ community, onClose }) => {
         click: (event, chartContext, config) => {
           const clickedAttribute = Object.entries(community.attributes)[config.dataPointIndex];
           if (clickedAttribute) {
-            handleAttributeClick({ name: clickedAttribute[0], value: clickedAttribute[1] });
+            console.log({ name: clickedAttribute[0], value: clickedAttribute[1] });
+            // handleAttributeClick({ name: clickedAttribute[0], value: clickedAttribute[1] });
           }
         },
       },
@@ -78,7 +70,6 @@ const DataVisualization = ({ community, onClose }) => {
 
 const generateAttributeColors = (attributes) => {
   const uniqueAttributes = Object.keys(attributes);
-  const defaultColor = '#B0BEC5'; // Default color
 
   return uniqueAttributes.reduce((colors, attributeName, index) => {
     colors[attributeName] = getColorByIndex(index);
