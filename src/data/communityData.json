@@ -78,7 +78,7 @@
               "attributes": {"Population Density": 0.5, "Education Level": 0.7, "Income Level": 0.8, "Cultural Diversity": 0.8, "Healthcare Access": 0.7, "Crime Rate": 0.3, "Job Opportunities": 0.8, "Transportation Infrastructure": 0.7, "Air Quality": 0.8},
               "dataSources": [
                 {"name": "Facebook Group", "url": "https://www.facebook.com/impdoficial/?locale=pt_BR"},
-                {"name": "Facebook Group", "url": "https://www.facebook.com/igreja.adbras/?locale=pt_BR"},
+                {"name": "Facebook Group", "url": "https://www.facebook.com/igreja.adbras/?locale=pt_BR"}
               ]
             },
             {
