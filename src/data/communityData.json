@@ -1,216 +1,865 @@
 {
-  "countries": [
+  "countries":[
     {
       "name": "Netherlands",
       "cities": [
         {
           "name": "Amsterdam",
           "coordinates": {"latitude": 52.3676, "longitude": 4.9041},
-
+          "attributes": {
+            "Jewish Community": 35000,
+            "LGBTQ+ Community": 51413,
+            "Evangelist Community": 142305,
+            "Muslim Community": 110172
+          },
+          "Support_pct": 0.29,
           "communities": [
             {
-              "name": "Greenfield Heights",
-              "size": 12000,
-              "coordinates": {"latitude": 52.3676, "longitude": 4.9041},
-              "attributes": {"Population Density": 0.3, "Education Level": 0.7, "Income Level": 0.5, "Cultural Diversity": 0.6, "Healthcare Access": 0.4, "Crime Rate": 0.2, "Job Opportunities": 0.8, "Transportation Infrastructure": 0.7, "Air Quality": 0.6, "Israel Opposition": 0.4, "Food Enthusiasts": 0.9, "Religious Attendees": 0.3, "Jewish Community": 0.8, "Muslim Community": 0.5, "Evangelist": 0.2, "LGBTQ": 0.1},
+              "name": "Jewish Community",
+              "size": 35000,
+              "coordinates": {"latitude": 52.3671, "longitude": 4.8999},
+              "attributes": {"Population Density": 0.4, "Education Level": 0.8, "Income Level": 0.6, "Cultural Diversity": 0.7, "Healthcare Access": 0.5, "Crime Rate": 0.3, "Job Opportunities": 0.7, "Transportation Infrastructure": 0.6, "Air Quality": 0.7, "Israel Opposition": 0.3, "Food Enthusiasts": 0.8, "Religious Attendees": 0.4, "Evangelist": 0.2, "LGBTQ": 0.1},
               "dataSources": [
                 {"name": "Facebook Group", "url": "https://www.facebook.com/groups/7965268533/"},
                 {"name": "Telegram Channel", "url": "https://t.me/greenfieldheights"}
               ]
             },
             {
-              "name": "Riverside Gardens",
-              "size": 15000,
-              "coordinates": {"latitude": 52.3792, "longitude": 4.8994},
-              "attributes": {"Population Density": 0.5, "Education Level": 0.6, "Income Level": 0.7, "Cultural Diversity": 0.5, "Healthcare Access": 0.8, "Crime Rate": 0.3, "Job Opportunities": 0.7, "Transportation Infrastructure": 0.6, "Air Quality": 0.7, "Israel Opposition": 0.5, "Food Enthusiasts": 0.7, "Religious Attendees": 0.4, "Jewish Community": 0.6, "Evangelist": 0.3, "LGBTQ": 0.2}
-            },
-            {
-              "name": "Cultural Center",
-              "size": 8000,
-              "coordinates": {"latitude": 52.3702, "longitude": 4.8952},
-              "attributes": {"Population Density": 0.4, "Education Level": 0.6, "Income Level": 0.4, "Cultural Diversity": 0.8, "Healthcare Access": 0.5, "Crime Rate": 0.3, "Job Opportunities": 0.5, "Transportation Infrastructure": 0.6, "Air Quality": 0.7}
-            },
-            {
-              "name": "Jewish Community",
-              "size": 20000,
-              "coordinates": {"latitude": 52.3671, "longitude": 4.8999},
-              "attributes": {"Population Density": 0.4, "Education Level": 0.8, "Income Level": 0.6, "Cultural Diversity": 0.7, "Healthcare Access": 0.5, "Crime Rate": 0.3, "Job Opportunities": 0.7, "Transportation Infrastructure": 0.6, "Air Quality": 0.7, "Israel Opposition": 0.3, "Food Enthusiasts": 0.8, "Religious Attendees": 0.4, "Evangelist": 0.2, "LGBTQ": 0.1}
-            },
-            {
               "name": "Evangelist",
-              "size": 10000,
+              "size": 142305,
               "coordinates": {"latitude": 52.3690, "longitude": 4.9005},
-              "attributes": {"Population Density": 0.3, "Education Level": 0.6, "Income Level": 0.5, "Cultural Diversity": 0.4, "Healthcare Access": 0.6, "Crime Rate": 0.2, "Job Opportunities": 0.5, "Transportation Infrastructure": 0.7, "Air Quality": 0.6, "Israel Opposition": 0.3, "Food Enthusiasts": 0.5, "Religious Attendees": 0.4, "Jewish Community": 0.2, "LGBTQ": 0.1}
+              "attributes": {"Population Density": 0.3, "Education Level": 0.6, "Income Level": 0.5, "Cultural Diversity": 0.4, "Healthcare Access": 0.6, "Crime Rate": 0.2, "Job Opportunities": 0.5, "Transportation Infrastructure": 0.7, "Air Quality": 0.6, "Israel Opposition": 0.3, "Food Enthusiasts": 0.5, "Religious Attendees": 0.4, "Jewish Community": 0.2, "LGBTQ": 0.1},
+              "dataSources": [
+                {"name": "Facebook Group", "url": "https://www.facebook.com/evangelistamsterdam/"},
+                {"name": "Telegram Channel", "url": "https://t.me/amsterdamchristian"}
+              ]
             },
             {
               "name": "LGBTQ",
-              "size": 48000,
+              "size": 51413,
               "coordinates": {"latitude": 52.3682, "longitude": 4.9021},
               "attributes": {"Population Density": 0.2, "Education Level": 0.7, "Income Level": 0.4, "Cultural Diversity": 0.8, "Healthcare Access": 0.3, "Crime Rate": 0.1, "Job Opportunities": 0.6, "Transportation Infrastructure": 0.8, "Air Quality": 0.7, "Israel Opposition": 0.1, "Food Enthusiasts": 0.9, "Religious Attendees": 0.2, "Jewish Community": 0.1, "Evangelist": 0.1}
             },
             {
-              "name": "Canal Side Residences",
-              "size": 25000,
-              "coordinates": {"latitude": 52.3687, "longitude": 4.8993},
-              "attributes": {"Population Density": 0.6, "Education Level": 0.7, "Income Level": 0.8, "Cultural Diversity": 0.7, "Healthcare Access": 0.6, "Crime Rate": 0.4, "Job Opportunities": 0.8, "Transportation Infrastructure": 0.7, "Air Quality": 0.8, "Israel Opposition": 0.3, "Food Enthusiasts": 0.9, "Religious Attendees": 0.4, "Jewish Community": 0.7, "Evangelist": 0.5, "LGBTQ": 0.3}
-            },
-            {
-              "name": "Museum District",
-              "size": 18000,
-              "coordinates": {"latitude": 52.3585, "longitude": 4.8845},
-              "attributes": {"Population Density": 0.5, "Education Level": 0.8, "Income Level": 0.7, "Cultural Diversity": 0.8, "Healthcare Access": 0.6, "Crime Rate": 0.3, "Job Opportunities": 0.7, "Transportation Infrastructure": 0.7, "Air Quality": 0.8, "Israel Opposition": 0.2, "Food Enthusiasts": 0.8, "Religious Attendees": 0.4, "Jewish Community": 0.6, "Evangelist": 0.3, "LGBTQ": 0.2}
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Brazil",
-      "cities": [
-        {
-          "name": "São Paulo",
-          "coordinates": {"latitude": -23.5505, "longitude": -46.6333},
-          "communities": [
-            {
-              "name": "Evangelist",
-              "size": 25000,
-              "coordinates": {"latitude": -23.5509, "longitude": -46.6339},
-              "attributes": {"Population Density": 0.5, "Education Level": 0.7, "Income Level": 0.8, "Cultural Diversity": 0.8, "Healthcare Access": 0.7, "Crime Rate": 0.3, "Job Opportunities": 0.8, "Transportation Infrastructure": 0.7, "Air Quality": 0.8},
+              "name": "Muslim Community",
+              "size": 110172,
+              "coordinates": {"latitude": 52.3676, "longitude": 4.9041},
+              "attributes": {"Population Density": 0.4, "Education Level": 0.7, "Income Level": 0.5, "Cultural Diversity": 0.6, "Healthcare Access": 0.4, "Crime Rate": 0.2, "Job Opportunities": 0.8, "Transportation Infrastructure": 0.7, "Air Quality": 0.6, "Israel Opposition": 0.4, "Food Enthusiasts": 0.9, "Religious Attendees": 0.3, "Evangelist": 0.2, "LGBTQ": 0.1},
               "dataSources": [
-                {"name": "Facebook Group", "url": "https://www.facebook.com/impdoficial/?locale=pt_BR"},
-                {"name": "Facebook Group", "url": "https://www.facebook.com/igreja.adbras/?locale=pt_BR"}
-              ]
-            },
-            {
-              "name": "Downtown Hub",
-              "size": 1000,
-              "coordinates": {"latitude": -23.5555, "longitude": -46.6493},
-              "attributes": {"Population Density": 0.7, "Education Level": 0.8, "Income Level": 0.6, "Cultural Diversity": 0.9, "Healthcare Access": 0.7, "Crime Rate": 0.4, "Job Opportunities": 0.9, "Transportation Infrastructure": 0.8, "Air Quality": 0.7}
-            },
-            {
-              "name": "Jewish",
-              "size": 140000,
-              "coordinates": {"latitude": -23.5617, "longitude": -46.6600},
-              "attributes": {"Population Density": 0.9, "Education Level": 0.9, "Income Level": 0.8, "Cultural Diversity": 0.9, "Healthcare Access": 0.9, "Crime Rate": 0.4, "Job Opportunities": 0.8, "Transportation Infrastructure": 0.9, "Air Quality": 0.8},
-              "dataSources": [
-                {"name": "Facebook", "url": "https://www.facebook.com/ClubeHebraicaSP"},
-                {"name": "Facebook", "url": "https://www.facebook.com/ProgramaShalomBrasil"},
-                {"name": "Facebook", "url": "https://www.facebook.com/ItzchakElchonon/"},
-                {"name": "Facebook", "url": "https://www.facebook.com/IsraelinSaoPaulo"},
-                {"name": "Facebook", "url": "https://www.facebook.com/chevrasaopaulo"},
-                {"name": "Facebook", "url": "https://www.facebook.com/federacaosp"},
-                {"name": "Facebook", "url": "https://www.facebook.com/VelasKosher/"},
-                {"name": "Instagram", "url": "https://www.instagram.com/memorialdoholocausto/?hl=en"},
-                {"name": "Facebook", "url": "https://www.facebook.com/editoraelivrariasefer/"},
-                {"name": "Facebook", "url": "https://www.facebook.com/HOREBEVIRTUAL/"},
-                {"name": "Instagram", "url": "https://www.instagram.com/shoshana_delishop/?hl=en"},
-                {"name": "Instagram", "url": "https://www.instagram.com/bazartenyad/?hl=en"},
-                {"name": "Facebook", "url": "https://www.facebook.com/emporiumbrasilisrael/"},
-                {"name": "Facebook", "url": "https://www.facebook.com/ResgateJudaica/"},
-                {"name": "Facebook", "url": "https://www.facebook.com/edmaayanot/"},
-                {"name": "Facebook", "url": "https://www.facebook.com/escolasganilubavitch/"},
-                {"name": "Facebook", "url": "https://www.facebook.com/shildavila/?locale=pt_BR"},
-                {"name": "Facebook", "url": "https://www.facebook.com/cipsp/?locale=pt_BR"},
-                {"name": "Facebook", "url": "https://www.facebook.com/groups/467395750078077/?paipv=0&eav=AfYRDck032k9BKr2npQ579MBH2SVQUdU-Hf-cZ6nn44bG0nnMb6moW6l0E1rnm70dDE&_rdr"},
-                {"name": "Facebook", "url": "https://www.facebook.com/sinagogasemfronteiras/?locale=pt_BR"},
-                {"name": "Facebook", "url": "https://www.facebook.com/tiferetlubavitch/"},
-                {"name": "Instagram", "url": "https://www.instagram.com/sinagogasemsaopaulo/?hl=en"},
-                {"name": "Instagram", "url": "https://www.instagram.com/kehilat_mizrachi/"}
-             ]
-            },
-            {
-              "name": "LGBTQ",
-              "size": 6700,
-              "coordinates": {"latitude": -23.5600, "longitude": -46.6200},
-              "attributes": {"Population Density": 0.8, "Education Level": 0.9, "Income Level": 0.7, "Cultural Diversity": 0.9, "Healthcare Access": 0.8, "Crime Rate": 0.5, "Job Opportunities": 0.8, "Transportation Infrastructure": 0.9, "Air Quality": 0.8},
-              "dataSources": [
-                {"name": "Instagram", "url": "https://www.instagram.com/memorialdoholocausto/?hl=en"},
-                {"name": "Facebook", "url": "https://www.facebook.com/editoraelivrariasefer/"},
-                {"name": "Facebook", "url": "https://www.facebook.com/HOREBEVIRTUAL/"},
-                {"name": "Instagram", "url": "https://www.instagram.com/shoshana_delishop/?hl=en"},
-                {"name": "Instagram", "url": "https://www.instagram.com/bazartenyad/?hl=en"},
-                {"name": "Facebook", "url": "https://www.facebook.com/emporiumbrasilisrael/"},
-                {"name": "Facebook", "url": "https://www.facebook.com/ResgateJudaica/"},
-                {"name": "Facebook", "url": "https://www.facebook.com/edmaayanot/"},
-                {"name": "Facebook", "url": "https://www.facebook.com/escolasganilubavitch/"},
-                {"name": "Facebook", "url": "https://www.facebook.com/shildavila/?locale=pt_BR"},
-                {"name": "Facebook", "url": "https://www.facebook.com/cipsp/?locale=pt_BR"},
-                {"name": "Facebook", "url": "https://www.facebook.com/groups/467395750078077/?paipv=0&eav=AfYRDck032k9BKr2npQ579MBH2SVQUdU-Hf-cZ6nn44bG0nnMb6moW6l0E1rnm70dDE&_rdr"},
-                {"name": "Facebook", "url": "https://www.facebook.com/sinagogasemfronteiras/?locale=pt_BR"},
-                {"name": "Facebook", "url": "https://www.facebook.com/tiferetlubavitch/"},
-                {"name": "Instagram", "url": "https://www.instagram.com/sinagogasemsaopaulo/?hl=en"},
-                {"name": "Instagram", "url": "https://www.instagram.com/kehilat_mizrachi/"}
+                {"name": "Facebook Group", "url": "https://www.facebook.com/groups/7965268533/"},
+                {"name": "Telegram Channel", "url": "https://t.me/greenfieldheights"}
               ]
             }
           ]
         },
         {
-          "name": "Rio de Janeiro",
-          "coordinates": {"latitude": -22.9099, "longitude": -43.2260},
-
+          "name": "Rotterdam",
+          "coordinates": {"latitude": 51.9225, "longitude": 4.47917},
+          "attributes": {
+            "Jewish Community": 20000,
+            "LGBTQ+ Community": 48000,
+            "Evangelist Community": 10000,
+            "Muslim Community": 7000
+          },
           "communities": [
             {
-              "name": "Copacabana Beachfront",
-              "size": 16000,
-              "coordinates": {"latitude": -22.9849, "longitude": -43.1950},
-              "attributes": {"Population Density": 0.6, "Education Level": 0.5, "Income Level": 0.7, "Cultural Diversity": 0.8, "Healthcare Access": 0.6, "Crime Rate": 0.3, "Job Opportunities": 0.8, "Transportation Infrastructure": 0.7, "Air Quality": 0.7}
-            },
-            {
-              "name": "Amazon Rainforest Village",
-              "size": 22000,
-              "coordinates": {"latitude": -3.4653, "longitude": -62.2159},
-              "attributes": {"Population Density": 0.2, "Education Level": 0.7, "Income Level": 0.4, "Cultural Diversity": 0.6, "Healthcare Access": 0.5, "Crime Rate": 0.2, "Job Opportunities": 0.5, "Transportation Infrastructure": 0.6, "Air Quality": 0.5}
-            }
-          ]
-        }
-       
-      ]
-    },
-    {
-      "name": "Israel",
-      "cities": [
-        {
-          "name": "Tel Aviv",
-          "coordinates": {"latitude": 32.0853, "longitude": 34.7818},
-          "communities": [
-            {
-              "name": "Tech Hub Heights",
-              "size": 14000,
-              "coordinates": {"latitude": 32.0853, "longitude": 34.7818},
-              "attributes": {"Population Density": 0.5, "Education Level": 0.8, "Income Level": 0.7, "Cultural Diversity": 0.6, "Healthcare Access": 0.7, "Crime Rate": 0.3, "Job Opportunities": 0.8, "Transportation Infrastructure": 0.8, "Air Quality": 0.7}
-            },
-            {
-              "name": "Old Jaffa Quarters",
-              "size": 10000,
-              "coordinates": {"latitude": 32.0489, "longitude": 34.7515},
-              "attributes": {"Population Density": 0.4, "Education Level": 0.6, "Income Level": 0.5, "Cultural Diversity": 0.7, "Healthcare Access": 0.6, "Crime Rate": 0.2, "Job Opportunities": 0.5, "Transportation Infrastructure": 0.7, "Air Quality": 0.6}
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "New York",
-      "cities": [
-        {
-          "name": "Manhattan",
-          "coordinates": {"latitude": 40.7128, "longitude": -74.0160},
-          "communities": [
-            {
-              "name": "Financial District Towers",
+              "name": "Jewish Community",
               "size": 20000,
-              "coordinates": {"latitude": 40.7128, "longitude": -74.0060},
-              "attributes": {"Population Density": 0.8, "Education Level": 0.7, "Income Level": 0.9, "Cultural Diversity": 0.7, "Healthcare Access": 0.8, "Crime Rate": 0.4, "Job Opportunities": 0.9, "Transportation Infrastructure": 0.8, "Air Quality": 0.7}
+              "coordinates": {"latitude": 51.9225, "longitude": 4.47917},
+              "attributes": {"Population Density": 0.4, "Education Level": 0.8, "Income Level": 0.6, "Cultural Diversity": 0.7, "Healthcare Access": 0.5, "Crime Rate": 0.3, "Job Opportunities": 0.7, "Transportation Infrastructure": 0.6, "Air Quality": 0.7, "Israel Opposition": 0.3, "Food Enthusiasts": 0.8, "Religious Attendees": 0.4, "Evangelist": 0.2, "LGBTQ": 0.1},
+              "dataSources": [
+                {"name": "Facebook Group", "url": "https://www.facebook.com/groups/7965268533/"},
+                {"name": "Telegram Channel", "url": "https://t.me/greenfieldheights"}
+              ]
             },
             {
-              "name": "Central Park Residences",
+              "name": "Evangelist",
               "size": 10000,
-              "coordinates": {"latitude": 40.7851, "longitude": -73.9683},
-              "attributes": {"Population Density": 0.6, "Education Level": 0.8, "Income Level": 0.7, "Cultural Diversity": 0.8, "Healthcare Access": 0.7, "Crime Rate": 0.3, "Job Opportunities": 0.7, "Transportation Infrastructure": 0.7, "Air Quality": 0.8}
+              "coordinates": {"latitude": 51.9225, "longitude": 4.47917},
+              "attributes": {"Population Density": 0.3, "Education Level": 0.6, "Income Level": 0.5, "Cultural Diversity": 0.4, "Healthcare Access": 0.6, "Crime Rate": 0.2, "Job Opportunities": 0.5, "Transportation Infrastructure": 0.7, "Air Quality": 0.6, "Israel Opposition": 0.3, "Food Enthusiasts": 0.5, "Religious Attendees": 0.4, "Jewish Community": 0.2, "LGBTQ": 0.1},
+              "dataSources": [
+                {"name": "Facebook Group", "url": "https://www.facebook.com/groups/7965268533/"},
+                {"name": "Telegram Channel", "url": "https://t.me/greenfieldheights"}
+              ]
+            },
+            {
+              "name": "LGBTQ",
+              "size": 48000,
+              "coordinates": {"latitude": 51.9225, "longitude": 4.47917},
+              "attributes": {"Population Density": 0.2, "Education Level": 0.7, "Income Level": 0.4, "Cultural Diversity": 0.8, "Healthcare Access": 0.3, "Crime Rate": 0.1, "Job Opportunities": 0.6, "Transportation Infrastructure": 0.8, "Air Quality": 0.7, "Israel Opposition": 0.1, "Food Enthusiasts": 0.9, "Religious Attendees": 0.2, "Jewish Community": 0.1, "Evangelist": 0.1}
+            },
+            {
+              "name": "Muslim Community",
+              "size": 7000,
+              "coordinates": {"latitude": 51.9225, "longitude": 4.47917},
+              "attributes": {"Population Density": 0.4, "Education Level": 0.7, "Income Level": 0.5, "Cultural Diversity": 0.6, "Healthcare Access": 0.4, "Crime Rate": 0.2, "Job Opportunities": 0.8, "Transportation Infrastructure": 0.7, "Air Quality": 0.6, "Israel Opposition": 0.4, "Food Enthusiasts": 0.9, "Religious Attendees": 0.3, "Evangelist": 0.2, "LGBTQ": 0.1},
+              "dataSources": [
+                {"name": "Facebook Group", "url": "https://www.facebook.com/groups/7965268533/"},
+                {"name": "Telegram Channel", "url": "https://t.me/greenfieldheights"}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Utrecht",
+          "coordinates": {"latitude": 52.0907, "longitude": 5.1214},
+          "attributes": {
+            "Jewish Community": 15000,
+            "LGBTQ+ Community": 40000,
+            "Evangelist Community": 8000,
+            "Muslim Community": 5000
+          },
+          "communities": [
+            {
+              "name": "Jewish Community",
+              "size": 15000,
+              "coordinates": {"latitude": 52.0907, "longitude": 5.1214},
+              "attributes": {"Population Density": 0.4, "Education Level": 0.8, "Income Level": 0.6, "Cultural Diversity": 0.7, "Healthcare Access": 0.5, "Crime Rate": 0.3, "Job Opportunities": 0.7, "Transportation Infrastructure": 0.6, "Air Quality": 0.7, "Israel Opposition": 0.3, "Food Enthusiasts": 0.8, "Religious Attendees": 0.4, "Evangelist": 0.2, "LGBTQ": 0.1},
+              "dataSources": [
+                {"name": "Facebook Group", "url": "https://www.facebook.com/groups/7965268533/"},
+                {"name": "Telegram Channel", "url": "https://t.me/greenfieldheights"}
+              ]
+            },
+            {
+              "name": "Evangelist",
+              "size": 8000,
+              "coordinates": {"latitude": 52.0907, "longitude": 5.1214},
+              "attributes": {"Population Density": 0.3, "Education Level": 0.6, "Income Level": 0.5, "Cultural Diversity": 0.4, "Healthcare Access": 0.6, "Crime Rate": 0.2, "Job Opportunities": 0.5, "Transportation Infrastructure": 0.7, "Air Quality": 0.6, "Israel Opposition": 0.3, "Food Enthusiasts": 0.5, "Religious Attendees": 0.4, "Jewish Community": 0.2, "LGBTQ": 0.1},
+              "dataSources": [
+                {"name": "Facebook Group", "url": "https://www.facebook.com/evangelistutrecht/"},
+                {"name": "Telegram Channel", "url": "https://t.me/utrechtchristian"}
+              ]
+            },
+            {
+              "name": "LGBTQ",
+              "size": 40000,
+              "coordinates": {"latitude": 52.0907, "longitude": 5.1214},
+              "attributes": {"Population Density": 0.2, "Education Level": 0.7, "Income Level": 0.4, "Cultural Diversity": 0.8, "Healthcare Access": 0.3, "Crime Rate": 0.1, "Job Opportunities": 0.6, "Transportation Infrastructure": 0.8, "Air Quality": 0.7, "Israel Opposition": 0.1, "Food Enthusiasts": 0.9, "Religious Attendees": 0.2, "Jewish Community": 0.1, "Evangelist": 0.1}
+            },
+            {
+              "name": "Muslim Community",
+              "size": 5000,
+              "coordinates": {"latitude": 52.0907, "longitude": 5.1214},
+              "attributes": {"Population Density": 0.4, "Education Level": 0.7, "Income Level": 0.5, "Cultural Diversity": 0.6, "Healthcare Access": 0.4, "Crime Rate": 0.2, "Job Opportunities": 0.8, "Transportation Infrastructure": 0.7, "Air Quality": 0.6, "Israel Opposition": 0.4, "Food Enthusiasts": 0.9, "Religious Attendees": 0.3, "Evangelist": 0.2, "LGBTQ": 0.1},
+              "dataSources": [
+                {"name": "Facebook Group", "url": "https://www.facebook.com/groups/7965268533/"},
+                {"name": "Telegram Channel", "url": "https://t.me/greenfieldheights"}
+              ]
             }
           ]
         }
       ]
-    }
+    },
+     {
+        "name":"United States",
+        "cities":[
+           {
+              "name":"New York",
+              "coordinates":{
+                 "latitude":40.7128,
+                 "longitude":-74.0060
+              },
+              "attributes":{
+                 "Jewish":250000,
+                 "LGBTQ":300000,
+                 "Evangelist":80000,
+                 "Muslim":150000
+              },
+              "Support_pct":0.40,
+              "communities":[
+                 {
+                    "name":"Jewish",
+                    "size":250000,
+                    "coordinates":{
+                       "latitude":40.7128,
+                       "longitude":-74.0060
+                    },
+                    "attributes":{
+                       "Density":0.5,
+                       "Education":0.9,
+                       "Income":0.7,
+                       "Diversity":0.8,
+                       "Healthcare":0.6,
+                       "Crime":0.4,
+                       "Job":0.8,
+                       "Transportation":0.7,
+                       "AirQuality":0.8,
+                       "IsraelOpposition":0.2,
+                       "FoodEnthusiasts":0.9,
+                       "ReligiousAttendees":0.5,
+                       "Evangelist":0.3,
+                       "LGBTQ":0.2
+                    },
+                    "dataSources":[
+                       {
+                          "name":"Website",
+                          "url":"https://www.nycjewishcommunity.org/"
+                       },
+                       {
+                          "name":"Facebook",
+                          "url":"https://www.facebook.com/nycjewishcommunity"
+                       }
+                    ]
+                 },
+                 {
+                    "name":"Evangelist",
+                    "size":80000,
+                    "coordinates":{
+                       "latitude":40.7128,
+                       "longitude":-74.0060
+                    },
+                    "attributes":{
+                       "Density":0.4,
+                       "Education":0.7,
+                       "Income":0.6,
+                       "Diversity":0.5,
+                       "Healthcare":0.7,
+                       "Crime":0.3,
+                       "Job":0.6,
+                       "Transportation":0.8,
+                       "AirQuality":0.7,
+                       "IsraelOpposition":0.4,
+                       "FoodEnthusiasts":0.6,
+                       "ReligiousAttendees":0.4,
+                       "Jewish":0.3,
+                       "LGBTQ":0.2
+                    },
+                    "dataSources":[
+                       {
+                          "name":"Website",
+                          "url":"https://www.evangelistny.org/"
+                       },
+                       {
+                          "name":"Facebook",
+                          "url":"https://www.facebook.com/evangelistny"
+                       }
+                    ]
+                 },
+                 {
+                    "name":"LGBTQ",
+                    "size":300000,
+                    "coordinates":{
+                       "latitude":40.7128,
+                       "longitude":-74.0060
+                    },
+                    "attributes":{
+                       "Density":0.3,
+                       "Education":0.8,
+                       "Income":0.5,
+                       "Diversity":0.9,
+                       "Healthcare":0.4,
+                       "Crime":0.2,
+                       "Job":0.7,
+                       "Transportation":0.9,
+                       "AirQuality":0.8,
+                       "IsraelOpposition":0.2,
+                       "FoodEnthusiasts":1.0,
+                       "ReligiousAttendees":0.3,
+                       "Jewish":0.2,
+                       "Evangelist":0.1
+                    }
+                 },
+                 {
+                    "name":"Muslim",
+                    "size":150000,
+                    "coordinates":{
+                       "latitude":40.7128,
+                       "longitude":-74.0060
+                    },
+                    "attributes":{
+                       "Density":0.5,
+                       "Education":0.8,
+                       "Income":0.6,
+                       "Diversity":0.7,
+                       "Healthcare":0.5,
+                       "Crime":0.3,
+                       "Job":0.9,
+                       "Transportation":0.8,
+                       "AirQuality":0.7,
+                       "IsraelOpposition":0.5,
+                       "FoodEnthusiasts":0.9,
+                       "ReligiousAttendees":0.4,
+                       "Evangelist":0.3,
+                       "LGBTQ":0.1
+                    },
+                    "dataSources":[
+                       {
+                          "name":"Website",
+                          "url":"https://www.nycmuslimcommunity.org/"
+                       },
+                       {
+                          "name":"Facebook",
+                          "url":"https://www.facebook.com/nycmuslimcommunity"
+                       }
+                    ]
+                 }
+              ]
+           }
+        ]
+     },
+     {
+        "name":"Brazil",
+        "cities":[
+          {
+            "name": "São Paulo",
+            "coordinates": {
+              "latitude": -23.5505,
+              "longitude": -46.6333
+            },
+            "attributes": {
+              "Jewish": 653500,
+              "LGBTQ": 493994,
+              "Evangelist": 2369562,
+              "Muslim": 23795
+            },
+            "Support_pct": 0.35,
+            "communities": [
+              {
+                "name": "Jewish",
+                "size": 653500,
+                "coordinates": {
+                  "latitude": -23.5787,
+                  "longitude": -46.6644
+                },
+                "attributes": {
+                  "Density": 0.4,
+                  "Education": 0.8,
+                  "Income": 0.7,
+                  "Diversity": 0.6,
+                  "Healthcare": 0.5,
+                  "Crime": 0.3,
+                  "Job": 0.8,
+                  "Transportation": 0.7,
+                  "AirQuality": 0.7,
+                  "IsraelOpposition": 0.2,
+                  "FoodEnthusiasts": 0.8,
+                  "ReligiousAttendees": 0.4,
+                  "Evangelist": 0.1,
+                  "LGBTQ": 0.2
+                },
+                "dataSources": [
+                  {
+                    "name": "FederacaoSP",
+                    "size": 140000,
+                    "link": "https://www.facebook.com/federacaosp"
+                  },
+                  {
+                    "name": "SinagogasSemFronteiras",
+                    "size": 137000,
+                    "link": "https://www.facebook.com/sinagogasemfronteiras/?locale=pt_BR"
+                  },
+                  {
+                    "name": "IsraelinSaoPaulo",
+                    "size": 67000,
+                    "link": "https://www.facebook.com/IsraelinSaoPaulo"
+                  },
+                  {
+                    "name": "PinatiSP",
+                    "size": 52100,
+                    "link": "https://www.instagram.com/pinatisp/?hl=en"
+                  },
+                  {
+                    "name": "ClubeHebraicaSP",
+                    "size": 45000,
+                    "link": "https://www.facebook.com/ClubeHebraicaSP"
+                  },
+                  {
+                    "name": "MemorialHolocausto",
+                    "size": 43800,
+                    "link": "https://www.instagram.com/memorialdoholocausto/?hl=en"
+                  },
+                  {
+                    "name": "EditoraELivrariaSefer",
+                    "size": 38000,
+                    "link": "https://www.facebook.com/editoraelivrariasefer/"
+                  },
+                  {
+                    "name": "ProgramaShalomBrasil",
+                    "size": 27000,
+                    "link": "https://www.facebook.com/ProgramaShalomBrasil"
+                  },
+                  {
+                    "name": "ShoshanaDeliShop",
+                    "size": 20000,
+                    "link": "https://www.instagram.com/shoshana_delishop/?hl=en"
+                  },
+                  {
+                    "name": "CIPSP",
+                    "size": 18000,
+                    "link": "https://www.facebook.com/cipsp/?locale=pt_BR"
+                  },
+                  {
+                    "name": "SmokeDeli",
+                    "size": 14800,
+                    "link": "https://www.instagram.com/smokedeli/?hl=en"
+                  }
+                ]
+              },
+              {
+                "name": "Evangelist",
+                "size": 2369562,
+                "coordinates": {
+                  "latitude": -23.5452,
+                  "longitude": -46.5676
+                },
+                "attributes": {
+                  "Density": 0.3,
+                  "Education": 0.6,
+                  "Income": 0.5,
+                  "Diversity": 0.4,
+                  "Healthcare": 0.6,
+                  "Crime": 0.4,
+                  "Job": 0.6,
+                  "Transportation": 0.6,
+                  "AirQuality": 0.6,
+                  "IsraelOpposition": 0.2,
+                  "FoodEnthusiasts": 0.6,
+                  "ReligiousAttendees": 0.3,
+                  "Jewish": 0.1,
+                  "LGBTQ": 0.1
+                },
+                "dataSources": [
+                  {
+                    "name": "IMPDOficial",
+                    "size": 913000,
+                    "link": "https://www.facebook.com/impdoficial/?locale=pt_BR"
+                  },
+                  {
+                    "name": "IgrejaADBras",
+                    "size": 467000,
+                    "link": "https://www.facebook.com/igreja.adbras/?locale=pt_BR"
+                  },
+                  {
+                    "name": "IgrejaDeusEAmor",
+                    "size": 438000,
+                    "link": "https://www.facebook.com/igrejadeuseamor/?locale=pt_BR"
+                  },
+                  {
+                    "name": "IIGDOficial",
+                    "size": 253000,
+                    "link": "https://www.facebook.com/iigdoficial/?locale=pt_BR"
+                  },
+                  {
+                    "name": "ADPerusOficial",
+                    "size": 182000,
+                    "link": "https://www.facebook.com/adperusoficial/?locale=pt_BR"
+                  },
+                  {
+                    "name": "RCCSaoPaulo",
+                    "size": 30000,
+                    "link": "https://www.facebook.com/rccsaopaulo/?locale=pt_BR"
+                  },
+                  {
+                    "name": "ADVIPQUEIMADOS",
+                    "size": 20000,
+                    "link": "https://www.facebook.com/ADVIPQUEIMADOS/"
+                  },
+                  {
+                    "name": "AmorEGraca",
+                    "size": 13000,
+                    "link": "https://www.facebook.com/AmoreGraca/?locale=pt_BR"
+                  }
+                ]
+              },
+              {
+                "name": "LGBTQ",
+                "size": 493994,
+                "coordinates": {
+                  "latitude": -23.5653,
+                  "longitude": -46.6632
+                },
+                "attributes": {
+                  "Density": 0.5,
+                  "Education": 0.9,
+                  "Income": 0.8,
+                  "Diversity": 0.9,
+                  "Healthcare": 0.8,
+                  "Crime": 0.2,
+                  "Job": 0.9,
+                  "Transportation": 0.9,
+                  "AirQuality": 0.9,
+                  "IsraelOpposition": 0.1,
+                  "FoodEnthusiasts": 0.9,
+                  "ReligiousAttendees": 0.3,
+                  "Jewish": 0.1,
+                  "Evangelist": 0.1
+                },
+                "dataSources": [
+                  {
+                    "name": "GambiarraAFesta",
+                    "size": 136000,
+                    "link": "https://www.facebook.com/gambiarraafesta/?locale=pt_BR"
+                  },
+                  {
+                    "name": "ClubYacht",
+                    "size": 79000,
+                    "link": "https://www.facebook.com/ClubYacht/?locale=pt_BR"
+                  },
+                  {
+                    "name": "BlueSpaceSP",
+                    "size": 62000,
+                    "link": "https://www.facebook.com/bluespacesp/?locale=pt_BR"
+                  },
+                  {
+                    "name": "BaladaTunnel",
+                    "size": 56600,
+                    "link": "https://www.instagram.com/balada_tunnel/?hl=en"
+                  },
+                  {
+                    "name": "UrSoundClub",
+                    "size": 40700,
+                    "link": "https://www.instagram.com/ursound_club/?hl=en"
+                  },
+                  {
+                    "name": "AlokaClub",
+                    "size": 30800,
+                    "link": "https://www.instagram.com/aloka_club/?hl=en"
+                  },
+                  {
+                    "name": "BofetadaClub",
+                    "size": 27000,
+                    "link": "https://www.facebook.com/bofetadaclub/?locale=pt_BR"
+                  },
+                  {
+                    "name": "CasaFluida",
+                    "size": 26100,
+                    "link": "https://www.instagram.com/casafluida/?hl=en"
+                  },
+                  {
+                    "name": "EspacoLagoaSauna",
+                    "size": 21100,
+                    "link": "https://www.instagram.com/espacolagoasauna/?hl=en"
+                  }
+                ]
+              },
+              {
+                "name": "Muslim",
+                "size": 23795,
+                "coordinates": {
+                  "latitude": -23.5505,
+                  "longitude": -46.6333
+                },
+                "attributes": {
+                  "Density": 0.4,
+                  "Education": 0.8,
+                  "Income": 0.6,
+                  "Diversity": 0.5,
+                  "Healthcare": 0.5,
+                  "Crime": 0.2,
+                  "Job": 0.7,
+                  "Transportation": 0.8,
+                  "AirQuality": 0.7,
+                  "IsraelOpposition": 0.3,
+                  "FoodEnthusiasts": 0.8,
+                  "ReligiousAttendees": 0.2,
+                  "Evangelist": 0.1,
+                  "LGBTQ": 0.1
+                },
+                "dataSources": [
+                  {
+                    "name": "RioMuslimCommunity",
+                    "size": 3000,
+                    "link": "https://www.riomuslimcommunity.org/"
+                  },
+                  {
+                    "name": "Facebook",
+                    "size": 3000,
+                    "link": "https://www.facebook.com/riomuslimcommunity"
+                  }
+                ]
+              }
+            ]
+          },
+           {
+              "name":"Rio de Janeiro",
+              "coordinates":{
+                 "latitude":-22.9068,
+                 "longitude":-43.1729
+              },
+              "attributes":{
+                 "Jewish":5000,
+                 "LGBTQ":80000,
+                 "Evangelist":10000,
+                 "Muslim":3000
+              },
+              "Support_pct":0.25,
+              "communities":[
+                 {
+                    "name":"Jewish",
+                    "size":5000,
+                    "coordinates":{
+                       "latitude":-22.9068,
+                       "longitude":-43.1729
+                    },
+                    "attributes":{
+                       "Density":0.3,
+                       "Education":0.7,
+                       "Income":0.5,
+                       "Diversity":0.6,
+                       "Healthcare":0.4,
+                       "Crime":0.2,
+                       "Job":0.7,
+                       "Transportation":0.6,
+                       "AirQuality":0.6,
+                       "IsraelOpposition":0.3,
+                       "FoodEnthusiasts":0.7,
+                       "ReligiousAttendees":0.3,
+                       "Evangelist":0.1,
+                       "LGBTQ":0.1
+                    },
+                    "dataSources":[
+                       {
+                          "name":"Website",
+                          "url":"https://www.riojewishcommunity.org/"
+                       },
+                       {
+                          "name":"Facebook",
+                          "url":"https://www.facebook.com/riojewishcommunity"
+                       }
+                    ]
+                 },
+                 {
+                    "name":"Evangelist",
+                    "size":10000,
+                    "coordinates":{
+                       "latitude":-22.9068,
+                       "longitude":-43.1729
+                    },
+                    "attributes":{
+                       "Density":0.2,
+                       "Education":0.6,
+                       "Income":0.4,
+                       "Diversity":0.3,
+                       "Healthcare":0.5,
+                       "Crime":0.3,
+                       "Job":0.5,
+                       "Transportation":0.6,
+                       "AirQuality":0.5,
+                       "IsraelOpposition":0.2,
+                       "FoodEnthusiasts":0.5,
+                       "ReligiousAttendees":0.4,
+                       "Jewish":0.1,
+                       "LGBTQ":0.1
+                    },
+                    "dataSources":[
+                       {
+                          "name":"Website",
+                          "url":"https://www.evangelistrio.org/"
+                       },
+                       {
+                          "name":"Facebook",
+                          "url":"https://www.facebook.com/evangelistrio"
+                       }
+                    ]
+                 },
+                 {
+                    "name":"LGBTQ",
+                    "size":80000,
+                    "coordinates":{
+                       "latitude":-22.9068,
+                       "longitude":-43.1729
+                    },
+                    "attributes":{
+                       "Density":0.4,
+                       "Education":0.8,
+                       "Income":0.6,
+                       "Diversity":0.9,
+                       "Healthcare":0.7,
+                       "Crime":0.2,
+                       "Job":0.8,
+                       "Transportation":0.8,
+                       "AirQuality":0.8,
+                       "IsraelOpposition":0.1,
+                       "FoodEnthusiasts":0.9,
+                       "ReligiousAttendees":0.3,
+                       "Jewish":0.1,
+                       "Evangelist":0.1
+                    }
+                 },
+                 {
+                    "name":"Muslim",
+                    "size":3000,
+                    "coordinates":{
+                       "latitude":-22.9068,
+                       "longitude":-43.1729
+                    },
+                    "attributes":{
+                       "Density":0.3,
+                       "Education":0.7,
+                       "Income":0.5,
+                       "Diversity":0.4,
+                       "Healthcare":0.4,
+                       "Crime":0.2,
+                       "Job":0.6,
+                       "Transportation":0.7,
+                       "AirQuality":0.6,
+                       "IsraelOpposition":0.4,
+                       "FoodEnthusiasts":0.8,
+                       "ReligiousAttendees":0.2,
+                       "Evangelist":0.1,
+                       "LGBTQ":0.1
+                    },
+                    "dataSources":[
+                       {
+                          "name":"Website",
+                          "url":"https://www.riomuslimcommunity.org/"
+                       },
+                       {
+                          "name":"Facebook",
+                          "url":"https://www.facebook.com/riomuslimcommunity"
+                       }
+                    ]
+                 }
+              ]
+           }
+        ]
+     },
+     {
+        "name":"Israel",
+        "cities":[
+           {
+              "name":"Tel Aviv",
+              "coordinates":{
+                 "latitude":32.0853,
+                 "longitude":34.7818
+              },
+              "attributes":{
+                 "Jewish":200000,
+                 "LGBTQ":60000,
+                 "Evangelist":12000,
+                 "Muslim":5000
+              },
+              "Support_pct":0.35,
+              "communities":[
+                 {
+                    "name":"Jewish",
+                    "size":200000,
+                    "coordinates":{
+                       "latitude":32.0853,
+                       "longitude":34.7818
+                    },
+                    "attributes":{
+                       "Density":0.6,
+                       "Education":0.9,
+                       "Income":0.8,
+                       "Diversity":0.8,
+                       "Healthcare":0.7,
+                       "Crime":0.3,
+                       "Job":0.8,
+                       "Transportation":0.8,
+                       "AirQuality":0.8,
+                       "IsraelOpposition":0.2,
+                       "FoodEnthusiasts":0.9,
+                       "ReligiousAttendees":0.6,
+                       "Evangelist":0.2,
+                       "LGBTQ":0.2
+                    },
+                    "dataSources":[
+                       {
+                          "name":"Website",
+                          "url":"https://www.telavivjewishcommunity.org/"
+                       },
+                       {
+                          "name":"Facebook",
+                          "url":"https://www.facebook.com/telavivjewishcommunity"
+                       }
+                    ]
+                 },
+                 {
+                    "name":"Evangelist",
+                    "size":12000,
+                    "coordinates":{
+                       "latitude":32.0853,
+                       "longitude":34.7818
+                    },
+                    "attributes":{
+                       "Density":0.4,
+                       "Education":0.7,
+                       "Income":0.6,
+                       "Diversity":0.5,
+                       "Healthcare":0.7,
+                       "Crime":0.3,
+                       "Job":0.6,
+                       "Transportation":0.7,
+                       "AirQuality":0.7,
+                       "IsraelOpposition":0.4,
+                       "FoodEnthusiasts":0.6,
+                       "ReligiousAttendees":0.5,
+                       "Jewish":0.3,
+                       "LGBTQ":0.2
+                    },
+                    "dataSources":[
+                       {
+                          "name":"Website",
+                          "url":"https://www.evangelisttelaviv.org/"
+                       },
+                       {
+                          "name":"Facebook",
+                          "url":"https://www.facebook.com/evangelisttelaviv"
+                       }
+                    ]
+                 },
+                 {
+                    "name":"LGBTQ",
+                    "size":60000,
+                    "coordinates":{
+                       "latitude":32.0853,
+                       "longitude":34.7818
+                    },
+                    "attributes":{
+                       "Density":0.3,
+                       "Education":0.8,
+                       "Income":0.5,
+                       "Diversity":0.9,
+                       "Healthcare":0.6,
+                       "Crime":0.2,
+                       "Job":0.7,
+                       "Transportation":0.9,
+                       "AirQuality":0.8,
+                       "IsraelOpposition":0.2,
+                       "FoodEnthusiasts":1.0,
+                       "ReligiousAttendees":0.4,
+                       "Jewish":0.2,
+                       "Evangelist":0.1
+                    }
+                 },
+                 {
+                    "name":"Muslim",
+                    "size":5000,
+                    "coordinates":{
+                       "latitude":32.0853,
+                       "longitude":34.7818
+                    },
+                    "attributes":{
+                       "Density":0.4,
+                       "Education":0.8,
+                       "Income":0.6,
+                       "Diversity":0.7,
+                       "Healthcare":0.5,
+                       "Crime":0.3,
+                       "Job":0.9,
+                       "Transportation":0.8,
+                       "AirQuality":0.7,
+                       "IsraelOpposition":0.5,
+                       "FoodEnthusiasts":0.9,
+                       "ReligiousAttendees":0.4,
+                       "Evangelist":0.3,
+                       "LGBTQ":0.1
+                    },
+                    "dataSources":[
+                       {
+                          "name":"Website",
+                          "url":"https://www.telavivmuslimcommunity.org/"
+                       },
+                       {
+                          "name":"Facebook",
+                          "url":"https://www.facebook.com/telavivmuslimcommunity"
+                       }
+                    ]
+                 }
+              ]
+           }
+        ]
+     }
   ]
 }

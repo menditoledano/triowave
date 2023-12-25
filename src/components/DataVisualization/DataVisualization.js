@@ -77,8 +77,8 @@ const DataVisualization = ({ community, onClose }) => {
         <ul>
           {dataSources.map((source, index) => (
             <li key={index}>
-              <a href={source.url} target="_blank" rel="noopener noreferrer">
-                {source.name}
+              <a href={source.link} target="_blank" rel="noopener noreferrer">
+                {source.name} - <b>{source.size}</b>
               </a>
             </li>
           ))}
@@ -91,8 +91,8 @@ const DataVisualization = ({ community, onClose }) => {
     <div className="data-visualization-container" ref={modalRef}>
       <div className="modal-content">
         <span className="close" onClick={handleCloseModal}>&times;</span>
-        <h3 className="data-visualization-header">{community.name}</h3>
-        <h4 className="data-visualization-header">{community.size.toLocaleString()} Population</h4>
+        { community && <h3 className="data-visualization-header">{community.name}</h3>}
+        { community.size && <h4 className="data-visualization-header">{community.size.toLocaleString()} Population</h4> }
 
         <div className="tab-container">
           <div className={`tab ${activeTab === 'chart' ? 'active' : ''}`} onClick={() => handleTabChange('chart')}>
