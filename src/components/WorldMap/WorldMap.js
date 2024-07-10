@@ -18,6 +18,7 @@ const WorldMap = ({
   const [zoomLevel, setZoomLevel] = useState(12);
   const mapRef = useRef();
 
+  
   const infoIcon = new L.Icon({
     iconUrl: './marker-icon-2x.png', // Replace with the actual path to your SVG icon
     iconSize: [400 / zoomLevel,700 / zoomLevel],
