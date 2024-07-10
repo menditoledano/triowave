@@ -1,0 +1,1180 @@
+{
+   "countries": [{
+         "name": "United States",
+         "cities": [{
+               "name": "Alpharetta, Georgia",
+               "coordinates": {
+                  "latitude": 34.0754,
+                  "longitude": -84.2941
+               },
+               "attributes": {
+                  "Christian evangelists": 66566
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 66566,
+                  "SM_followers": 1065250,
+                  "SM_coverage_rate": 53.343,
+                  "coordinates": {
+                     "latitude": 34.074191489542685,
+                     "longitude": -84.2989663635557
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Atlanta, Georgia",
+               "coordinates": {
+                  "latitude": 33.749,
+                  "longitude": -84.388
+               },
+               "attributes": {
+                  "Christian evangelists": 498715
+               },
+               "communities": [{
+                     "name": "Christian evangelists",
+                     "size": 498715,
+                     "SM_followers": 2605104,
+                     "SM_coverage_rate": 17.412,
+                     "coordinates": {
+                        "latitude": 33.75121453473926,
+                        "longitude": -84.3839324829029
+                     },
+                     "attributes": {
+                        "Pct_evangelical_christians": 1,
+                        "Pct_of_jews": 0.172413793
+                     }
+                  },
+                  {
+                     "name": "Jews",
+                     "size": 498715,
+                     "SM_followers": 5901,
+                     "SM_coverage_rate": 0.493,
+                     "coordinates": {
+                        "latitude": 33.75005296791888,
+                        "longitude": -84.39013389746083
+                     },
+                     "attributes": {
+                        "Pct_evangelical_christians": 1,
+                        "Pct_of_jews": 0.172413793
+                     }
+                  }
+               ]
+            },
+            {
+               "name": "Charlotte, North Carolina",
+               "coordinates": {
+                  "latitude": 35.2271,
+                  "longitude": -80.8431
+               },
+               "attributes": {
+                  "Christian evangelists": 874579
+               },
+               "communities": [{
+                     "name": "Christian evangelists",
+                     "size": 874579,
+                     "SM_followers": 15648712,
+                     "SM_coverage_rate": 59.643,
+                     "coordinates": {
+                        "latitude": 35.229284093423814,
+                        "longitude": -80.84024566353969
+                     },
+                     "attributes": {
+                        "Pct_evangelical_christians": 1,
+                        "Pct_of_jews": 0.172413793
+                     }
+                  },
+                  {
+                     "name": "Jews",
+                     "size": 874579,
+                     "SM_followers": 2600,
+                     "SM_coverage_rate": 0.186,
+                     "coordinates": {
+                        "latitude": 35.226527608521764,
+                        "longitude": -80.84240055777157
+                     },
+                     "attributes": {
+                        "Pct_evangelical_christians": 1,
+                        "Pct_of_jews": 0.172413793
+                     }
+                  }
+               ]
+            },
+            {
+               "name": "Costa Mesa, California",
+               "coordinates": {
+                  "latitude": 33.6411,
+                  "longitude": -117.9187
+               },
+               "attributes": {
+                  "Christian evangelists": 113003
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 113003,
+                  "SM_followers": 3001800,
+                  "SM_coverage_rate": 88.546,
+                  "coordinates": {
+                     "latitude": 33.643557179876055,
+                     "longitude": -117.91942499130711
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Dallas, Texas",
+               "coordinates": {
+                  "latitude": 32.7767,
+                  "longitude": -96.797
+               },
+               "attributes": {
+                  "Christian evangelists": 1356789
+               },
+               "communities": [{
+                     "name": "Christian evangelists",
+                     "size": 1356789,
+                     "SM_followers": 25918811,
+                     "SM_coverage_rate": 63.677,
+                     "coordinates": {
+                        "latitude": 32.77779633391469,
+                        "longitude": -96.79195110489933
+                     },
+                     "attributes": {
+                        "Pct_evangelical_christians": 1,
+                        "Pct_of_jews": 0.172413793
+                     }
+                  },
+                  {
+                     "name": "Jews",
+                     "size": 1356789,
+                     "SM_followers": 7000,
+                     "SM_coverage_rate": 0.132,
+                     "coordinates": {
+                        "latitude": 32.77529038105491,
+                        "longitude": -96.80053699083953
+                     },
+                     "attributes": {
+                        "Pct_evangelical_christians": 1,
+                        "Pct_of_jews": 0.172413793
+                     }
+                  }
+               ]
+            },
+            {
+               "name": "Edmond, Oklahoma",
+               "coordinates": {
+                  "latitude": 35.6528,
+                  "longitude": -97.4781
+               },
+               "attributes": {
+                  "Christian evangelists": 94196
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 94196,
+                  "SM_followers": 2940054,
+                  "SM_coverage_rate": 104.04,
+                  "coordinates": {
+                     "latitude": 35.654797128888994,
+                     "longitude": -97.47630641755313
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Fenton, Montana",
+               "coordinates": {
+                  "latitude": 38.5137,
+                  "longitude": -90.4426
+               },
+               "attributes": {
+                  "Christian evangelists": 40538
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 40538,
+                  "SM_followers": 22157790,
+                  "SM_coverage_rate": 1821.977,
+                  "coordinates": {
+                     "latitude": 38.51182832901475,
+                     "longitude": -90.44398867728563
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Flower Mound, Texas",
+               "coordinates": {
+                  "latitude": 33.0146,
+                  "longitude": -97.0969
+               },
+               "attributes": {
+                  "Christian evangelists": 79155
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 79155,
+                  "SM_followers": 526193,
+                  "SM_coverage_rate": 22.159,
+                  "coordinates": {
+                     "latitude": 33.013963264312046,
+                     "longitude": -97.09382029767208
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Fort Worth, Texas",
+               "coordinates": {
+                  "latitude": 32.7555,
+                  "longitude": -97.3308
+               },
+               "attributes": {
+                  "Christian evangelists": 927720
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 927720,
+                  "SM_followers": 462046,
+                  "SM_coverage_rate": 1.66,
+                  "coordinates": {
+                     "latitude": 32.755270250181546,
+                     "longitude": -97.33192172122972
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Houston, Texas",
+               "coordinates": {
+                  "latitude": 29.7604,
+                  "longitude": -95.3698
+               },
+               "attributes": {
+                  "Christian evangelists": 2312717
+               },
+               "communities": [{
+                     "name": "Christian evangelists",
+                     "size": 2312717,
+                     "SM_followers": 3576679,
+                     "SM_coverage_rate": 3.875,
+                     "coordinates": {
+                        "latitude": 29.75989584999418,
+                        "longitude": -95.37085346928912
+                     },
+                     "attributes": {
+                        "Pct_evangelical_christians": 1,
+                        "Pct_of_jews": 0.172413793
+                     }
+                  },
+                  {
+                     "name": "Jews",
+                     "size": 2312717,
+                     "SM_followers": 0,
+                     "SM_coverage_rate": 0,
+                     "coordinates": {
+                        "latitude": 29.761340829409882,
+                        "longitude": -95.36950462983442
+                     },
+                     "attributes": {
+                        "Pct_evangelical_christians": 1,
+                        "Pct_of_jews": 0.172413793
+                     }
+                  }
+               ]
+            },
+            {
+               "name": "Kansas City, Missouri",
+               "coordinates": {
+                  "latitude": 39.0997,
+                  "longitude": -94.5786
+               },
+               "attributes": {
+                  "Christian evangelists": 467503
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 467503,
+                  "SM_followers": 2342292,
+                  "SM_coverage_rate": 16.27,
+                  "coordinates": {
+                     "latitude": 39.09991206275845,
+                     "longitude": -94.58596596579215
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Lake Forest, California",
+               "coordinates": {
+                  "latitude": 33.6469,
+                  "longitude": -117.6861
+               },
+               "attributes": {
+                  "Christian evangelists": 18228
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 18228,
+                  "SM_followers": 1656914,
+                  "SM_coverage_rate": 680.977,
+                  "coordinates": {
+                     "latitude": 33.64831037148247,
+                     "longitude": -117.6934235110505
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Las Vegas, Nevada",
+               "coordinates": {
+                  "latitude": 36.1699,
+                  "longitude": -115.1398
+               },
+               "attributes": {
+                  "Christian evangelists": 558383
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 558383,
+                  "SM_followers": 8910997,
+                  "SM_coverage_rate": 159.606,
+                  "coordinates": {
+                     "latitude": 36.1714965382848,
+                     "longitude": -115.14266727673318
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Los Angeles, California",
+               "coordinates": {
+                  "latitude": 34.0522,
+                  "longitude": -118.2437
+               },
+               "attributes": {
+                  "Christian evangelists": 1534984
+               },
+               "communities": [{
+                     "name": "Christian evangelists",
+                     "size": 1534984,
+                     "SM_followers": 3011167,
+                     "SM_coverage_rate": 1.963,
+                     "coordinates": {
+                        "latitude": 34.053690667381416,
+                        "longitude": -118.2427663717005
+                     },
+                     "attributes": {
+                        "Pct_evangelical_christians": 1,
+                        "Pct_of_jews": 0.172413793
+                     }
+                  },
+                  {
+                     "name": "Jews",
+                     "size": 1534984,
+                     "SM_followers": 6800,
+                     "SM_coverage_rate": 0.443,
+                     "coordinates": {
+                        "latitude": 34.051284216023285,
+                        "longitude": -118.24610503441338
+                     },
+                     "attributes": {
+                        "Pct_evangelical_christians": 1,
+                        "Pct_of_jews": 0.172413793
+                     }
+                  }
+               ]
+            },
+            {
+               "name": "Mesa, Arizona",
+               "coordinates": {
+                  "latitude": 33.4152,
+                  "longitude": -111.8315
+               },
+               "attributes": {
+                  "Christian evangelists": 404405
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 404405,
+                  "SM_followers": 3968772,
+                  "SM_coverage_rate": 83.47,
+                  "coordinates": {
+                     "latitude": 33.41671075251896,
+                     "longitude": -111.83304060247146
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Miami, Florida",
+               "coordinates": {
+                  "latitude": 25.7617,
+                  "longitude": -80.1918
+               },
+               "attributes": {
+                  "Christian evangelists": 463347
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 463347,
+                  "SM_followers": 4394145,
+                  "SM_coverage_rate": 94.786,
+                  "coordinates": {
+                     "latitude": 25.763812193278444,
+                     "longitude": -80.19229417877675
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "New York City, New York",
+               "coordinates": {
+                  "latitude": 40.7128,
+                  "longitude": -74.006
+               },
+               "attributes": {
+                  "Christian evangelists": 3271768
+               },
+               "communities": [{
+                     "name": "Christian evangelists",
+                     "size": 3271768,
+                     "SM_followers": 11982892,
+                     "SM_coverage_rate": 36.631,
+                     "coordinates": {
+                        "latitude": 40.71354434926696,
+                        "longitude": -74.00597264926971
+                     },
+                     "attributes": {
+                        "Pct_evangelical_christians": 1,
+                        "Pct_of_jews": 0.172413793
+                     }
+                  },
+                  {
+                     "name": "Jews",
+                     "size": 3271768,
+                     "SM_followers": 0,
+                     "SM_coverage_rate": 0,
+                     "coordinates": {
+                        "latitude": 40.711366020304496,
+                        "longitude": -74.00942989144532
+                     },
+                     "attributes": {
+                        "Pct_evangelical_christians": 1,
+                        "Pct_of_jews": 0.172413793
+                     }
+                  }
+               ]
+            },
+            {
+               "name": "Norco, California",
+               "coordinates": {
+                  "latitude": 33.9319,
+                  "longitude": -117.5487
+               },
+               "attributes": {
+                  "Christian evangelists": 26262
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 26262,
+                  "SM_followers": 1513644,
+                  "SM_coverage_rate": 575.52,
+                  "coordinates": {
+                     "latitude": 33.93337975426564,
+                     "longitude": -117.55224105376332
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Phoenix, Arizona",
+               "coordinates": {
+                  "latitude": 33.4484,
+                  "longitude": -112.074
+               },
+               "attributes": {
+                  "Christian evangelists": 1433830
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 1433830,
+                  "SM_followers": 5215964,
+                  "SM_coverage_rate": 36.374,
+                  "coordinates": {
+                     "latitude": 33.44959128054462,
+                     "longitude": -112.07393578947015
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Plano, Texas",
+               "coordinates": {
+                  "latitude": 33.0198,
+                  "longitude": -96.6989
+               },
+               "attributes": {
+                  "Christian evangelists": 207271
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 207271,
+                  "SM_followers": 1240099,
+                  "SM_coverage_rate": 59.887,
+                  "coordinates": {
+                     "latitude": 33.02132652409958,
+                     "longitude": -96.69976842365596
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Portland, Oregon",
+               "coordinates": {
+                  "latitude": 45.5051,
+                  "longitude": -122.675
+               },
+               "attributes": {
+                  "Christian evangelists": 401048
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 401048,
+                  "SM_followers": 3346904,
+                  "SM_coverage_rate": 83.481,
+                  "coordinates": {
+                     "latitude": 45.50673519776117,
+                     "longitude": -122.67852480394342
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Rancho Cucamonga, California",
+               "coordinates": {
+                  "latitude": 34.1064,
+                  "longitude": -117.5931
+               },
+               "attributes": {
+                  "Christian evangelists": 26262
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 26262,
+                  "SM_followers": 1513644,
+                  "SM_coverage_rate": 575.52,
+                  "coordinates": {
+                     "latitude": 34.10733390823362,
+                     "longitude": -117.5970078774643
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Richmond, Virginia",
+               "coordinates": {
+                  "latitude": 37.5407,
+                  "longitude": -77.436
+               },
+               "attributes": {
+                  "Christian evangelists": 26262
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 26262,
+                  "SM_followers": 1513644,
+                  "SM_coverage_rate": 575.52,
+                  "coordinates": {
+                     "latitude": 37.54259270846599,
+                     "longitude": -77.43832447746266
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Riverside, California",
+               "coordinates": {
+                  "latitude": 33.9533,
+                  "longitude": -117.3962
+               },
+               "attributes": {
+                  "Christian evangelists": 26262
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 26262,
+                  "SM_followers": 1513644,
+                  "SM_coverage_rate": 575.52,
+                  "coordinates": {
+                     "latitude": 33.95334548225252,
+                     "longitude": -117.39619586716855
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Sacramento, California",
+               "coordinates": {
+                  "latitude": 38.5816,
+                  "longitude": -121.4944
+               },
+               "attributes": {
+                  "Christian evangelists": 26262
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 26262,
+                  "SM_followers": 1513644,
+                  "SM_coverage_rate": 575.52,
+                  "coordinates": {
+                     "latitude": 38.582664168281046,
+                     "longitude": -121.49400033692205
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Salt Lake City, Utah",
+               "coordinates": {
+                  "latitude": 40.7608,
+                  "longitude": -111.891
+               },
+               "attributes": {
+                  "Christian evangelists": 26262
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 26262,
+                  "SM_followers": 1513644,
+                  "SM_coverage_rate": 575.52,
+                  "coordinates": {
+                     "latitude": 40.76072695273346,
+                     "longitude": -111.89261102623264
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "San Antonio, Texas",
+               "coordinates": {
+                  "latitude": 29.4241,
+                  "longitude": -98.4936
+               },
+               "attributes": {
+                  "Christian evangelists": 26262
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 26262,
+                  "SM_followers": 1513644,
+                  "SM_coverage_rate": 575.52,
+                  "coordinates": {
+                     "latitude": 29.42529287802123,
+                     "longitude": -98.4929402117763
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "San Bernardino, California",
+               "coordinates": {
+                  "latitude": 34.1083,
+                  "longitude": -117.2898
+               },
+               "attributes": {
+                  "Christian evangelists": 26262
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 26262,
+                  "SM_followers": 1513644,
+                  "SM_coverage_rate": 575.52,
+                  "coordinates": {
+                     "latitude": 34.10835292832529,
+                     "longitude": -117.28973206583878
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "San Diego, California",
+               "coordinates": {
+                  "latitude": 32.7157,
+                  "longitude": -117.1611
+               },
+               "attributes": {
+                  "Christian evangelists": 26262
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 26262,
+                  "SM_followers": 1513644,
+                  "SM_coverage_rate": 575.52,
+                  "coordinates": {
+                     "latitude": 32.71569344813691,
+                     "longitude": -117.16109845341394
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "San Jose, California",
+               "coordinates": {
+                  "latitude": 37.3382,
+                  "longitude": -121.8863
+               },
+               "attributes": {
+                  "Christian evangelists": 26262
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 26262,
+                  "SM_followers": 1513644,
+                  "SM_coverage_rate": 575.52,
+                  "coordinates": {
+                     "latitude": 37.336347286358205,
+                     "longitude": -121.8881522411925
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Santa Ana, California",
+               "coordinates": {
+                  "latitude": 33.7456,
+                  "longitude": -117.8678
+               },
+               "attributes": {
+                  "Christian evangelists": 26262
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 26262,
+                  "SM_followers": 1513644,
+                  "SM_coverage_rate": 575.52,
+                  "coordinates": {
+                     "latitude": 33.7445764736215,
+                     "longitude": -117.86782394309807
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Scottsdale, Arizona",
+               "coordinates": {
+                  "latitude": 33.4942,
+                  "longitude": -111.9261
+               },
+               "attributes": {
+                  "Christian evangelists": 26262
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 26262,
+                  "SM_followers": 1513644,
+                  "SM_coverage_rate": 575.52,
+                  "coordinates": {
+                     "latitude": 33.49406499083798,
+                     "longitude": -111.92654564439407
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Seattle, Washington",
+               "coordinates": {
+                  "latitude": 47.6062,
+                  "longitude": -122.3321
+               },
+               "attributes": {
+                  "Christian evangelists": 26262
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 26262,
+                  "SM_followers": 1513644,
+                  "SM_coverage_rate": 575.52,
+                  "coordinates": {
+                     "latitude": 47.60686115512673,
+                     "longitude": -122.3328098096327
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "St. Louis, Missouri",
+               "coordinates": {
+                  "latitude": 38.627,
+                  "longitude": -90.1994
+               },
+               "attributes": {
+                  "Christian evangelists": 26262
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 26262,
+                  "SM_followers": 1513644,
+                  "SM_coverage_rate": 575.52,
+                  "coordinates": {
+                     "latitude": 38.62719897700515,
+                     "longitude": -90.1977023132621
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Stockton, California",
+               "coordinates": {
+                  "latitude": 37.9577,
+                  "longitude": -121.2908
+               },
+               "attributes": {
+                  "Christian evangelists": 26262
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 26262,
+                  "SM_followers": 1513644,
+                  "SM_coverage_rate": 575.52,
+                  "coordinates": {
+                     "latitude": 37.958024290898575,
+                     "longitude": -121.29073444049053
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Tampa, Florida",
+               "coordinates": {
+                  "latitude": 27.9506,
+                  "longitude": -82.4572
+               },
+               "attributes": {
+                  "Christian evangelists": 26262
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 26262,
+                  "SM_followers": 1513644,
+                  "SM_coverage_rate": 575.52,
+                  "coordinates": {
+                     "latitude": 27.951582378932883,
+                     "longitude": -82.45644854831693
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Tucson, Arizona",
+               "coordinates": {
+                  "latitude": 32.2226,
+                  "longitude": -110.9747
+               },
+               "attributes": {
+                  "Christian evangelists": 26262
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 26262,
+                  "SM_followers": 1513644,
+                  "SM_coverage_rate": 575.52,
+                  "coordinates": {
+                     "latitude": 32.223205123551216,
+                     "longitude": -110.97330981955663
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Tulsa, Oklahoma",
+               "coordinates": {
+                  "latitude": 36.154,
+                  "longitude": -95.9928
+               },
+               "attributes": {
+                  "Christian evangelists": 26262
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 26262,
+                  "SM_followers": 1513644,
+                  "SM_coverage_rate": 575.52,
+                  "coordinates": {
+                     "latitude": 36.15430091961456,
+                     "longitude": -95.99307110526735
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Virginia Beach, Virginia",
+               "coordinates": {
+                  "latitude": 36.8529,
+                  "longitude": -75.978
+               },
+               "attributes": {
+                  "Christian evangelists": 26262
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 26262,
+                  "SM_followers": 1513644,
+                  "SM_coverage_rate": 575.52,
+                  "coordinates": {
+                     "latitude": 36.853507864727315,
+                     "longitude": -75.97863541251115
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Virginia, California",
+               "coordinates": {
+                  "latitude": 36.7783,
+                  "longitude": -76.1416
+               },
+               "attributes": {
+                  "Christian evangelists": 26262
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 26262,
+                  "SM_followers": 1513644,
+                  "SM_coverage_rate": 575.52,
+                  "coordinates": {
+                     "latitude": 36.77831407161245,
+                     "longitude": -76.1415814554544
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Washington, DC",
+               "coordinates": {
+                  "latitude": 38.8951,
+                  "longitude": -77.0364
+               },
+               "attributes": {
+                  "Christian evangelists": 26262
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 26262,
+                  "SM_followers": 1513644,
+                  "SM_coverage_rate": 575.52,
+                  "coordinates": {
+                     "latitude": 38.89551772143635,
+                     "longitude": -77.03650569365582
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Green Bay, Wisconsin",
+               "coordinates": {
+                  "latitude": 44.5192,
+                  "longitude": -88.0198
+               },
+               "attributes": {
+                  "Christian evangelists": 26262
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 26262,
+                  "SM_followers": 1513644,
+                  "SM_coverage_rate": 575.52,
+                  "coordinates": {
+                     "latitude": 44.52096221198148,
+                     "longitude": -88.01940042646552
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Madison, Wisconsin",
+               "coordinates": {
+                  "latitude": 43.0731,
+                  "longitude": -89.4012
+               },
+               "attributes": {
+                  "Christian evangelists": 26262
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 26262,
+                  "SM_followers": 1513644,
+                  "SM_coverage_rate": 575.52,
+                  "coordinates": {
+                     "latitude": 43.07469199304037,
+                     "longitude": -89.40123029422498
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            },
+            {
+               "name": "Milwaukee, Wisconsin",
+               "coordinates": {
+                  "latitude": 43.0389,
+                  "longitude": -87.9065
+               },
+               "attributes": {
+                  "Christian evangelists": 26262
+               },
+               "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 26262,
+                  "SM_followers": 1513644,
+                  "SM_coverage_rate": 575.52,
+                  "coordinates": {
+                     "latitude": 43.041125252565525,
+                     "longitude": -87.90648537391448
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }]
+            }
+         ]
+      },
+      {
+         "state": "Wyoming",
+         "cities": [{
+            "name": "Cheyenne, Wyoming",
+            "coordinates": {
+               "latitude": 41.13998,
+               "longitude": -104.820246
+            },
+            "attributes": {
+               "Christian evangelists": 26262
+            },
+            "communities": [{
+               "name": "Christian evangelists",
+               "size": 26262,
+               "SM_followers": 1513644,
+               "SM_coverage_rate": 575.52,
+               "coordinates": {
+                  "latitude": 41.13998,
+                  "longitude": -104.820246
+               },
+               "attributes": {
+                  "Pct_evangelical_christians": 1,
+                  "Pct_of_jews": 0.172413793
+               }
+            }]
+         }]
+      }
+   ]
+}

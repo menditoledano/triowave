@@ -43,12 +43,11 @@ const DataVisualization = ({ community, onClose }) => {
         },
       ],
     };
-
-    const chartOptions = {
+    const { ['SM_followers']: _, ...remainingAttributes } = community.attributes;    const chartOptions = {
       chart: {
         events: {
           click: (event, chartContext, config) => {
-            const clickedAttribute = Object.entries(community.attributes)[config.dataPointIndex];
+            const clickedAttribute = Object.entries(community.remainingAttributes)[config.dataPointIndex];
             if (clickedAttribute) {
               console.log({ name: clickedAttribute[0], value: clickedAttribute[1] });
               // handleAttributeClick({ name: clickedAttribute[0], value: clickedAttribute[1] });
@@ -70,7 +69,53 @@ const DataVisualization = ({ community, onClose }) => {
 
   const renderDataSourceTab = () => {
     // Assuming community.dataSources is an array of data sources for the community
-    const dataSources = community.dataSources || [];
+    const dataSources = community.dataSources || [
+      {
+        "name": "GambiarraAFesta",
+        "size": 136000,
+        "link": "https://www.facebook.com/gambiarraafesta/?locale=pt_BR"
+      },
+      {
+        "name": "ClubYacht",
+        "size": 79000,
+        "link": "https://www.facebook.com/ClubYacht/?locale=pt_BR"
+      },
+      {
+        "name": "BlueSpaceSP",
+        "size": 62000,
+        "link": "https://www.facebook.com/bluespacesp/?locale=pt_BR"
+      },
+      {
+        "name": "BaladaTunnel",
+        "size": 56600,
+        "link": "https://www.instagram.com/balada_tunnel/?hl=en"
+      },
+      {
+        "name": "UrSoundClub",
+        "size": 40700,
+        "link": "https://www.instagram.com/ursound_club/?hl=en"
+      },
+      {
+        "name": "AlokaClub",
+        "size": 30800,
+        "link": "https://www.instagram.com/aloka_club/?hl=en"
+      },
+      {
+        "name": "BofetadaClub",
+        "size": 27000,
+        "link": "https://www.facebook.com/bofetadaclub/?locale=pt_BR"
+      },
+      {
+        "name": "CasaFluida",
+        "size": 26100,
+        "link": "https://www.instagram.com/casafluida/?hl=en"
+      },
+      {
+        "name": "EspacoLagoaSauna",
+        "size": 21100,
+        "link": "https://www.instagram.com/espacolagoasauna/?hl=en"
+      }
+   ];
 
     return (
       <div>
@@ -92,7 +137,10 @@ const DataVisualization = ({ community, onClose }) => {
       <div className="modal-content">
         <span className="close" onClick={handleCloseModal}>&times;</span>
         { community && <h3 className="data-visualization-header">{community.name}</h3>}
-        { community.size && <h4 className="data-visualization-header">{community.size.toLocaleString()} Population</h4> }
+        { community.size && <h4 className="data-visualization-header">Population: {community.size.toLocaleString()} </h4> }
+        { community.SM_followers && <h4 className="data-visualization-header">Social media followers: {community.SM_followers.toLocaleString()} </h4> }
+        { community.SM_coverage_rate && <h4 className="data-visualization-header">Social media coverage rate: {community.SM_coverage_rate.toLocaleString()} </h4> }
+
 
         <div className="tab-container">
           <div className={`tab ${activeTab === 'chart' ? 'active' : ''}`} onClick={() => handleTabChange('chart')}>

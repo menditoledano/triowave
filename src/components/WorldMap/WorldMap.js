@@ -15,12 +15,12 @@ const WorldMap = ({
 }) => {
   const [selectedCommunity, setSelectedCommunity] = useState(null);
   const [selectedCityData, setSelectedCityData] = useState(null);
-  const [zoomLevel, setZoomLevel] = useState(13);
+  const [zoomLevel, setZoomLevel] = useState(12);
   const mapRef = useRef();
 
   const infoIcon = new L.Icon({
     iconUrl: './marker-icon-2x.png', // Replace with the actual path to your SVG icon
-    iconSize: [400 / zoomLevel, 600 / zoomLevel],
+    iconSize: [400 / zoomLevel,700 / zoomLevel],
   });
 
   const handleMarkerClick = (community) => {
@@ -90,10 +90,19 @@ const WorldMap = ({
           return 'green';
         }
       };
+      const getSizeColor = (size) => {
+        if (size >= 90000 ) {
+          return 'red';
+        } else if (size >50000 && size <= 90000) {
+          return 'orange';
+        } else {
+          return 'blue';
+        }
+      };
   return (
     <div className="world-map-container">
       <MapContainer
-  center={[52.3784, 4.8999]}
+       center={[ 32.7555, -97.3308]}
   zoom={zoomLevel}
   style={{ height: '95vh', width: '100%', zIndex: 0 }}
   whenCreated={(map) => (mapRef.current = map)}
@@ -107,8 +116,9 @@ const WorldMap = ({
       <CircleMarker
         key={community.name}
         center={[community.coordinates.latitude, community.coordinates.longitude]}
-        radius={Math.sqrt(community.size) * 0.15}
+        radius={Math.sqrt(community.size) * 0.10}
         eventHandlers={{ click: () => handleMarkerClick(community) }}
+        fillColor={getSizeColor(community.size/10)}
       >
         <Tooltip>{community.name}</Tooltip>
       </CircleMarker>
@@ -132,7 +142,7 @@ const WorldMap = ({
             />
           </div>
         </Popup>
-        <Tooltip>{'City Info'}</Tooltip>
+        <Tooltip>{city.name}</Tooltip>
        {city.name ==='Amsterdam'&& 
        <Rectangle
         className='rectangle-test'

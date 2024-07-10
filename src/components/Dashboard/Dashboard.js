@@ -1,7 +1,7 @@
 // src/components/Dashboard.js
 import React, { useEffect, useState } from 'react';
 import WorldMap from '../WorldMap/WorldMap';
-import data from '../../data/communityData.json';
+import data from '../../data/communityDataV2.json';
 import Select from 'react-select';
 import './Dashboard.css'; // Import the CSS file
 
