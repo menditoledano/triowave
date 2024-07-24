@@ -16,13 +16,13 @@ const WorldMap = ({
 }) => {
   const [selectedCommunity, setSelectedCommunity] = useState(null);
   const [selectedCityData, setSelectedCityData] = useState(null);
-  const [zoomLevel, setZoomLevel] = useState(5);
+  const [zoomLevel, setZoomLevel] = useState(4.5);
   const mapRef = useRef();
 
   
   const infoIcon = new L.Icon({
     iconUrl: './marker-icon-2x.png', // Replace with the actual path to your SVG icon
-    iconSize: [200 / zoomLevel,350 / zoomLevel],
+    iconSize: [150 / zoomLevel,220 / zoomLevel],
   });
 
   const handleMarkerClick = (community) => {
@@ -111,7 +111,7 @@ const WorldMap = ({
   return (
     <div className="world-map-container">
       <MapContainer
-       center={[ 32.7555, -97.3308]}
+       center={[ 35.7555, -97.3308]}
   zoom={zoomLevel}
   style={{ height: '95vh', width: '100%', zIndex: 0 }}
   whenCreated={(map) => (mapRef.current = map)}
