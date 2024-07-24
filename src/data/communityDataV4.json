@@ -1,0 +1,734 @@
+{
+    "countries": [{
+        "name": "New York",
+        "cities": [
+            {
+            "name": "New York City",
+            "coordinates": {
+               "latitude": 40.7128,
+               "longitude": -74.006
+            },
+            "attributes": {
+               "Christian evangelists": 371768
+            },
+            "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 1570000,
+                  "SM_followers": 11982892,
+                  "SM_coverage_rate": 36.631,
+                  "coordinates": {
+                     "latitude": 40.71354434926696,
+                     "longitude": -74.00597264926971
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               },
+               {
+                  "name": "Jews",
+                  "size": 1335000,
+                  "SM_followers": 0,
+                  "SM_coverage_rate": 0,
+                  "coordinates": {
+                     "latitude": 40.669044,
+                     "longitude": -73.942885
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }
+            ]
+         }]},
+        {
+            "name": "Georgia",
+            "cities": [
+                {
+                    "name": "Alpharetta, Georgia",
+                    "coordinates": {
+                        "latitude": 34.0754,
+                        "longitude": -84.2941
+                    },
+                    "attributes": {
+                        "Christian evangelists": 66566
+                    },
+                    "communities": [
+                        {
+                            "name": "Christian evangelists influences",
+                            "size": 66566,
+                            "SM_followers": 781947,
+                            "SM_coverage_rate": 409.3963351,
+                            "coordinates": {
+                                "latitude": 34.0754,
+                                "longitude": -84.3341
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.299987982,
+                                "Pct_of_jews": 0.028693327
+                            }
+                        },
+                        {
+                            "name": "Evangelical community",
+                            "size": 66255,
+                            "SM_followers": 38309,
+                            "SM_coverage_rate": 76.618,
+                            "coordinates": {
+                                "latitude": 34.1154,
+                                "longitude": -84.2941
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.30186401,
+                                "Pct_of_jews": 0.0075466
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Athens, Georgia",
+                    "coordinates": {
+                        "latitude": 33.949582,
+                        "longitude": -83.377322
+                    },
+                    "attributes": {
+                        "Christian evangelists": 0
+                    },
+                    "communities": [
+                        {
+                            "name": "Evangelical community",
+                            "size": 127315,
+                            "SM_followers": 208,
+                            "SM_coverage_rate": 0.138666667,
+                            "coordinates": {
+                                "latitude": 33.969582,
+                                "longitude": -83.377322
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.196363351,
+                                "Pct_of_jews": 0.011781801
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Atlanta, Georgia",
+                    "coordinates": {
+                        "latitude": 33.749,
+                        "longitude": -84.388
+                    },
+                    "attributes": {
+                        "Christian evangelists": 498715
+                    },
+                    "communities": [
+                        {
+                            "name": "Christian evangelists influences",
+                            "size": 498715,
+                            "SM_followers": 1542484,
+                            "SM_coverage_rate": 129.6205042,
+                            "coordinates": {
+                                "latitude": 33.799,
+                                "longitude": -84.438
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.299998997,
+                                "Pct_of_jews": 0.023861324
+                            }
+                        },
+                        {
+                            "name": "Evangelical community",
+                            "size": 498715,
+                            "SM_followers": 150392,
+                            "SM_coverage_rate": 4.296914286,
+                            "coordinates": {
+                                "latitude": 33.779,
+                                "longitude": -84.42800000000001
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.200515324,
+                                "Pct_of_jews": 0.070180364
+                            }
+                        },
+                        {
+                            "name": "Jewish community",
+                            "size": 498715,
+                            "SM_followers": 5901,
+                            "SM_coverage_rate": 0.495882353,
+                            "coordinates": {
+                                "latitude": 33.799,
+                                "longitude": -84.42800000000001
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.299998997,
+                                "Pct_of_jews": 0.023861324
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Bethlehem, Georgia",
+                    "coordinates": {
+                        "latitude": 33.934236,
+                        "longitude": -83.706432
+                    },
+                    "attributes": {
+                        "Christian evangelists": 0
+                    },
+                    "communities": [
+                        {
+                            "name": "Evangelical community",
+                            "size": 601,
+                            "SM_followers": 662,
+                            "SM_coverage_rate": 66.2,
+                            "coordinates": {
+                                "latitude": 33.974236,
+                                "longitude": -83.726432
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.332778702,
+                                "Pct_of_jews": 0.016638935
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "California",
+            "cities": [
+                {
+                    "name": "Aptos, California",
+                    "coordinates": {
+                        "latitude": 36.9786,
+                        "longitude": -121.904
+                    },
+                    "attributes": {
+                        "Christian evangelists": 0
+                    },
+                    "communities": [
+                        {
+                            "name": "Evangelical community",
+                            "size": 6220,
+                            "SM_followers": 9499,
+                            "SM_coverage_rate": 189.98,
+                            "coordinates": {
+                                "latitude": 37.0186,
+                                "longitude": -121.944
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.321543408,
+                                "Pct_of_jews": 0.008038585
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Beverly Hills, California",
+                    "coordinates": {
+                        "latitude": 34.06944,
+                        "longitude": -118.40094
+                    },
+                    "attributes": {
+                        "Christian evangelists": 0
+                    },
+                    "communities": [
+                        {
+                            "name": "Evangelical community",
+                            "size": 34362,
+                            "SM_followers": 29000,
+                            "SM_coverage_rate": 29,
+                            "coordinates": {
+                                "latitude": 34.08944,
+                                "longitude": -118.42094
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.291019149,
+                                "Pct_of_jews": 0.029101915
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "North Carolina",
+            "cities": [
+                {
+                    "name": "Asheville, North Carolina",
+                    "coordinates": {
+                        "latitude": 35.610154,
+                        "longitude": -82.537711
+                    },
+                    "attributes": {
+                        "Christian evangelists": 0
+                    },
+                    "communities": [
+                        {
+                            "name": "Evangelical community",
+                            "size": 93350,
+                            "SM_followers": 521,
+                            "SM_coverage_rate": 0.434166667,
+                            "coordinates": {
+                                "latitude": 35.630154000000005,
+                                "longitude": -82.537711
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.26780932,
+                                "Pct_of_jews": 0.012854847
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Boone, North Carolina",
+                    "coordinates": {
+                        "latitude": 36.216799,
+                        "longitude": -81.674679
+                    },
+                    "attributes": {
+                        "Christian evangelists": 0
+                    },
+                    "communities": [
+                        {
+                            "name": "Evangelical community",
+                            "size": 19205,
+                            "SM_followers": 101,
+                            "SM_coverage_rate": 0.336666667,
+                            "coordinates": {
+                                "latitude": 36.216799,
+                                "longitude": -81.684679
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.312418641,
+                                "Pct_of_jews": 0.015620932
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Cary, North Carolina",
+                    "coordinates": {
+                        "latitude": 35.788202,
+                        "longitude": -78.835713
+                    },
+                    "attributes": {
+                        "Christian evangelists": 0
+                    },
+                    "communities": [
+                        {
+                            "name": "Evangelical community",
+                            "size": 170282,
+                            "SM_followers": 3081,
+                            "SM_coverage_rate": 1.54,
+                            "coordinates": {
+                                "latitude": 35.808202,
+                                "longitude": -78.835713
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.352356679,
+                                "Pct_of_jews": 0.017617834
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Charlotte, North Carolina",
+                    "coordinates": {
+                        "latitude": 35.226944,
+                        "longitude": -80.835
+                    },
+                    "attributes": {
+                        "Christian evangelists": 0
+                    },
+                    "communities": [
+                        {
+                            "name": "Evangelical community",
+                            "size": 874579,
+                            "SM_followers": 1526,
+                            "SM_coverage_rate": 0.174,
+                            "coordinates": {
+                                "latitude": 35.266944,
+                                "longitude": -80.85499999999999
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.250083342,
+                                "Pct_of_jews": 0.018746249
+                            }
+                        },
+                        {
+                            "name": "Jewish community",
+                            "size": 874579,
+                            "SM_followers": 30300,
+                            "SM_coverage_rate": 3.471666667,
+                            "coordinates": {
+                                "latitude": 35.226944,
+                                "longitude": -80.845
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.250083342,
+                                "Pct_of_jews": 0.018746249
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Cramerton, North Carolina",
+                    "coordinates": {
+                        "latitude": 35.236441,
+                        "longitude": -81.071744
+                    },
+                    "attributes": {
+                        "Christian evangelists": 0
+                    },
+                    "communities": [
+                        {
+                            "name": "Evangelical community",
+                            "size": 4023,
+                            "SM_followers": 55,
+                            "SM_coverage_rate": 1.833333333,
+                            "coordinates": {
+                                "latitude": 35.236441,
+                                "longitude": -81.081744
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.3,
+                                "Pct_of_jews": 0.012236
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Texas",
+            "cities": [
+                {
+                    "name": "Austin, Texas",
+                    "coordinates": {
+                        "latitude": 30.24,
+                        "longitude": -97.6
+                    },
+                    "attributes": {
+                        "Christian evangelists": 0
+                    },
+                    "communities": [
+                        {
+                            "name": "Evangelical community",
+                            "size": 978908,
+                            "SM_followers": 27871,
+                            "SM_coverage_rate": 3.483875,
+                            "coordinates": {
+                                "latitude": 30.24,
+                                "longitude": -97.61
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.102154646,
+                                "Pct_of_jews": 0.008172372
+                            }
+                        },
+                        {
+                            "name": "Jewish community",
+                            "size": 978908,
+                            "SM_followers": 5100,
+                            "SM_coverage_rate": 0.6375,
+                            "coordinates": {
+                                "latitude": 30.259999999999998,
+                                "longitude": -97.61999999999999
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.102154646,
+                                "Pct_of_jews": 0.008172372
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Carrollton, Texas",
+                    "coordinates": {
+                        "latitude": 32.964293,
+                        "longitude": -96.92887
+                    },
+                    "attributes": {
+                        "Christian evangelists": 0
+                    },
+                    "communities": [
+                        {
+                            "name": "Evangelical community",
+                            "size": 133434,
+                            "SM_followers": 18000,
+                            "SM_coverage_rate": 18,
+                            "coordinates": {
+                                "latitude": 32.964293,
+                                "longitude": -96.97887
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.299773671,
+                                "Pct_of_jews": 0.007494342
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Coppell, Texas",
+                    "coordinates": {
+                        "latitude": 32.981,
+                        "longitude": -96.9935
+                    },
+                    "attributes": {
+                        "Christian evangelists": 0
+                    },
+                    "communities": [
+                        {
+                            "name": "Evangelical community",
+                            "size": 42883,
+                            "SM_followers": 134,
+                            "SM_coverage_rate": 0.134,
+                            "coordinates": {
+                                "latitude": 33.011,
+                                "longitude": -97.0235
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.250104399,
+                                "Pct_of_jews": 0.00833682
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Corpus Christi, Texas",
+                    "coordinates": {
+                        "latitude": 27.804417,
+                        "longitude": -97.396381
+                    },
+                    "attributes": {
+                        "Christian evangelists": 0
+                    },
+                    "communities": [
+                        {
+                            "name": "Jewish community",
+                            "size": 316381,
+                            "SM_followers": 18400,
+                            "SM_coverage_rate": 5.8,
+                            "coordinates": {
+                                "latitude": 27.824417,
+                                "longitude": -97.40638100000001
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.5,
+                                "Pct_of_jews": 0.007066745
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Dallas, Texas",
+                    "coordinates": {
+                        "latitude": 32.7763,
+                        "longitude": -96.7969
+                    },
+                    "attributes": {
+                        "Christian evangelists": 1356780
+                    },
+                    "communities": [
+                        {
+                            "name": "Christian evangelists influences",
+                            "size": 1356780,
+                            "SM_followers": 2406508,
+                            "SM_coverage_rate": 177.3663158,
+                            "coordinates": {
+                                "latitude": 32.8063,
+                                "longitude": -96.7969
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.299997996,
+                                "Pct_of_jews": 0.016434766
+                            }
+                        },
+                        {
+                            "name": "Evangelical community",
+                            "size": 1356780,
+                            "SM_followers": 327611,
+                            "SM_coverage_rate": 9.697382353,
+                            "coordinates": {
+                                "latitude": 32.7863,
+                                "longitude": -96.8369
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.125674262,
+                                "Pct_of_jews": 0.038476998
+                            }
+                        },
+                        {
+                            "name": "Jewish community",
+                            "size": 1356780,
+                            "SM_followers": 43400,
+                            "SM_coverage_rate": 3.983529412,
+                            "coordinates": {
+                                "latitude": 32.7763,
+                                "longitude": -96.8069
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.299997996,
+                                "Pct_of_jews": 0.016434766
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Montana",
+            "cities": [
+                {
+                    "name": "Bozeman, Montana",
+                    "coordinates": {
+                        "latitude": 45.67216095,
+                        "longitude": -111.0134419
+                    },
+                    "attributes": {
+                        "Christian evangelists": 0
+                    },
+                    "communities": [
+                        {
+                            "name": "Jewish community",
+                            "size": 46400,
+                            "SM_followers": 4800,
+                            "SM_coverage_rate": 48,
+                            "coordinates": {
+                                "latitude": 45.722160949999996,
+                                "longitude": -111.0134419
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.5,
+                                "Pct_of_jews": 0.002155172
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tennessee",
+            "cities": [
+                {
+                    "name": "Brentwood, Tennessee",
+                    "coordinates": {
+                        "latitude": 36.0331,
+                        "longitude": -86.7828
+                    },
+                    "attributes": {
+                        "Christian evangelists": 0
+                    },
+                    "communities": [
+                        {
+                            "name": "Jewish community",
+                            "size": 43268,
+                            "SM_followers": 1600,
+                            "SM_coverage_rate": 3.2,
+                            "coordinates": {
+                                "latitude": 36.083099999999995,
+                                "longitude": -86.8128
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.5,
+                                "Pct_of_jews": 0.011555884
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Indiana",
+            "cities": [
+                {
+                    "name": "Carmel, Indiana",
+                    "coordinates": {
+                        "latitude": 39.9784,
+                        "longitude": -86.1093
+                    },
+                    "attributes": {
+                        "Christian evangelists": 0
+                    },
+                    "communities": [
+                        {
+                            "name": "Evangelical community",
+                            "size": 101068,
+                            "SM_followers": 19000,
+                            "SM_coverage_rate": 19,
+                            "coordinates": {
+                                "latitude": 39.998400000000004,
+                                "longitude": -86.1593
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.197886571,
+                                "Pct_of_jews": 0.009894329
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "South Carolina",
+            "cities": [
+                {
+                    "name": "Columbia, South Carolina",
+                    "coordinates": {
+                        "latitude": 34.001374,
+                        "longitude": -81.034811
+                    },
+                    "attributes": {
+                        "Christian evangelists": 0
+                    },
+                    "communities": [
+                        {
+                            "name": "Evangelical community",
+                            "size": 137694,
+                            "SM_followers": 710,
+                            "SM_coverage_rate": 0.355,
+                            "coordinates": {
+                                "latitude": 34.031374,
+                                "longitude": -81.04481100000001
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.327275206,
+                                "Pct_of_jews": 0.019579472
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ohio",
+            "cities": [
+                {
+                    "name": "Columbus, Ohio",
+                    "coordinates": {
+                        "latitude": 39.961178,
+                        "longitude": -82.998794
+                    },
+                    "attributes": {
+                        "Christian evangelists": 0
+                    },
+                    "communities": [
+                        {
+                            "name": "Evangelical community",
+                            "size": 898553,
+                            "SM_followers": 6219,
+                            "SM_coverage_rate": 0.692111111,
+                            "coordinates": {
+                                "latitude": 40.011177999999994,
+                                "longitude": -83.048794
+                            },
+                            "attributes": {
+                                "Pct_evangelical_christians": 0.097581333,
+                                "Pct_of_jews": 0.008504837
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

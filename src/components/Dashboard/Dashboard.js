@@ -1,7 +1,7 @@
 // src/components/Dashboard.js
 import React, { useEffect, useState } from 'react';
 import WorldMap from '../WorldMap/WorldMap';
-import data from '../../data/communityDataV2.json';
+import data from '../../data/communityDataV4.json';
 import Select from 'react-select';
 import './Dashboard.css'; // Import the CSS file
 
@@ -28,45 +28,47 @@ const Dashboard = () => {
     fetchData();
   }, []);
 
-  const getFilterOptions = () => {
-    if (selectedCountry && selectedCity && selectedCity.value) {
-      const city = selectedCountry.value.cities.find((c) => c.name === selectedCity.value.name);
-      if (city) {
-        const attributes = city.communities.reduce((acc, community) => {
-          Object.keys(community.attributes).forEach((attribute) => {
-            if (!acc.includes(attribute)) {
-              acc.push(attribute);
-            }
-          });
-          return acc;
-        }, []);
-        return attributes.map((attribute) => ({ value: attribute, label: attribute }));
-      }
-    }
-    return [];
-  };
+  // const getFilterOptions = () => {
+  //   if (selectedCountry && selectedCity && selectedCity.value) {
+  //     const city = selectedCountry.value.cities.find((c) => c.name === selectedCity.value.name);
+  //     if (city) {
+  //       const attributes = city.communities.reduce((acc, community) => {
+  //         Object.keys(community.attributes).forEach((attribute) => {
+  //           if (!acc.includes(attribute)) {
+  //             acc.push(attribute);
+  //           }
+  //         });
+  //         return acc;
+  //       }, []);
+  //       return attributes.map((attribute) => ({ value: attribute, label: attribute }));
+  //     }
+  //   }
+  //   return [];
+  // };
 
-  const filterOptions = getFilterOptions();
+  // const filterOptions = getFilterOptions();
 
-  if (selectedAttribute) {
-    filterOptions.push({ value: 'custom', label: `Custom Value for ${selectedAttribute}` });
-  }
+  // if (selectedAttribute) {
+  //   filterOptions.push({ value: 'custom', label: `Custom Value for ${selectedAttribute}` });
+  // }
 
   const countryOptions = countriesData.map((country) => ({
     value: country,
     label: country.name,
   }));
 
-  const cityOptions = selectedCountry
-    ? selectedCountry.value.cities.map((city) => ({
-        value: city,
-        label: city.name,
-      }))
-    : [];
+  const cityOptions = (selectedCountry?.value?.cities || selectedCountry?.cities || []).map((city) => ({
+    value: city,
+    label: city.name,
+  }));
 
   const handleCountryChange = (selectedOption) => {
     setSelectedCountry(selectedOption);
     setSelectedCity({ label: selectedOption.value.cities[0].name, value: selectedOption.value.cities[0] });
+  };
+  const handleCountryCityChange = (city,country) => {
+    setSelectedCountry(country);
+    setSelectedCity({ label: city.name, value: city });
   };
 
   const handleCityChange = (selectedOption) => {
@@ -122,6 +124,7 @@ const Dashboard = () => {
           selectedFilters={selectedFilters}
           filterAttributeName={filterAttributeName}
           filterAttributeValue={filterAttributeValue}
+          onCitySelect={handleCountryCityChange}
         />
       </main>
     </div>

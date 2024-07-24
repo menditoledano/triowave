@@ -71,9 +71,9 @@ const DataVisualization = ({ community, onClose }) => {
     // Assuming community.dataSources is an array of data sources for the community
     const dataSources = community.dataSources || [
       {
-        "name": "GambiarraAFesta",
-        "size": 136000,
-        "link": "https://www.facebook.com/gambiarraafesta/?locale=pt_BR"
+        "name": "Joel Osteen",
+        "size": 27000000,
+        "link": "https://www.facebook.com/JoelOsteen/"
       },
       {
         "name": "ClubYacht",
@@ -136,6 +136,7 @@ const DataVisualization = ({ community, onClose }) => {
     <div className="data-visualization-container" ref={modalRef}>
       <div className="modal-content">
         <span className="close" onClick={handleCloseModal}>&times;</span>
+        {}
         { community && <h3 className="data-visualization-header">{community.name}</h3>}
         { community.size && <h4 className="data-visualization-header">Population: {community.size.toLocaleString()} </h4> }
         { community.SM_followers && <h4 className="data-visualization-header">Social media followers: {community.SM_followers.toLocaleString()} </h4> }

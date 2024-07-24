@@ -12,24 +12,26 @@ const WorldMap = ({
   selectedCity,
   selectedAttribute,
   selectedFilters,
+  onCitySelect
 }) => {
   const [selectedCommunity, setSelectedCommunity] = useState(null);
   const [selectedCityData, setSelectedCityData] = useState(null);
-  const [zoomLevel, setZoomLevel] = useState(12);
+  const [zoomLevel, setZoomLevel] = useState(5);
   const mapRef = useRef();
 
   
   const infoIcon = new L.Icon({
     iconUrl: './marker-icon-2x.png', // Replace with the actual path to your SVG icon
-    iconSize: [400 / zoomLevel,700 / zoomLevel],
+    iconSize: [200 / zoomLevel,350 / zoomLevel],
   });
 
   const handleMarkerClick = (community) => {
     setSelectedCommunity(community);
   };
 
-  const handleCityClick = (city) => {
-    setSelectedCityData(city);
+  const handleCityClick = (city, country) => {
+    //setSelectedCityData(city);
+     onCitySelect(city, country);
   };
 
   const handleCloseModal = () => {
@@ -42,11 +44,11 @@ const WorldMap = ({
 
     useEffect(() => {
       if (selectedCity) {
-        const firstCommunity = selectedCity.value.communities[0];
+        const firstCommunity = selectedCity?.value ?selectedCity.value.communities[0]: selectedCity.communities[0];
         if (firstCommunity) {
           map.flyTo(
             [firstCommunity.coordinates.latitude, firstCommunity.coordinates.longitude],
-            zoomLevel
+            zoomLevel+8
           );
         }
       } else if (selectedCountry) {
@@ -64,6 +66,12 @@ const WorldMap = ({
 
     return null;
   };
+  useEffect(() => {
+    if (selectedCity && mapRef.current) {
+      const map = mapRef.current;
+      map.setView([selectedCity.latitude, selectedCity.longitude], 12); // Adjust zoom level as needed
+    }
+  }, [selectedCity]);
 
   const calculateRectangleBounds = (center, size) => {
     const halfSize = size / 2;
@@ -129,19 +137,25 @@ const WorldMap = ({
   ))}
   {countriesData.flatMap((country) =>
     country.cities.flatMap((city) => (
+      
       <Marker
         position={[city.coordinates.latitude, city.coordinates.longitude]}
         icon={infoIcon}
+        eventHandlers={{ click: () => handleCityClick(city, country) }}
+
       >
-        <Popup>{city.name}
-          <div className="modal">
+        <Popup 
+            
+        >{city.name}
+
+          {/* <div className="modal">
             <embed
               src={'./Amsterdam.pdf'}
               type="application/pdf"
               height={800}
               width={500}
             />
-          </div>
+          </div> */}
         </Popup>
         <Tooltip>{city.name}</Tooltip>
        {city.name ==='Amsterdam'&& 
@@ -153,7 +167,6 @@ const WorldMap = ({
         )}
         color={getSupportColor(city.Support_pct)}  // getColor function should return color based on Support_pct
        opacity={1}
-       eventHandlers={{ click: () => handleCityClick(city) }}
       >
         <Tooltip>{city.name}</Tooltip>
         <div>{city.name}</div>

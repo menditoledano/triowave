@@ -398,6 +398,45 @@
               ]
            },
            {
+            "name": "New York City, New York",
+            "coordinates": {
+               "latitude": 40.7128,
+               "longitude": -74.006
+            },
+            "attributes": {
+               "Christian evangelists": 371768
+            },
+            "communities": [{
+                  "name": "Christian evangelists",
+                  "size": 2271768,
+                  "SM_followers": 11982892,
+                  "SM_coverage_rate": 36.631,
+                  "coordinates": {
+                     "latitude": 40.71354434926696,
+                     "longitude": -74.00597264926971
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               },
+               {
+                  "name": "Jews",
+                  "size": 2271768,
+                  "SM_followers": 0,
+                  "SM_coverage_rate": 0,
+                  "coordinates": {
+                     "latitude": 40.711366020304496,
+                     "longitude": -74.00942989144532
+                  },
+                  "attributes": {
+                     "Pct_evangelical_christians": 1,
+                     "Pct_of_jews": 0.172413793
+                  }
+               }
+            ]
+         },
+           {
               "name":"Las Vegas, Nevada",
               "coordinates":{
                  "latitude":36.1699,
